@@ -933,7 +933,7 @@ export default function ESGLandingPage() {
                   </div>
                 )}
                 <iframe
-                  src="https://app.frame2.online/chatbot/O3ffieGRDiMuciLs"
+                  src="https://dify.frame2.work/chat/O3ffieGRDiMuciLs"
                   style={{ width: "100%", height: "100%", minHeight: "700px" }}
                   frameBorder="0"
                   allow="microphone"
