@@ -87,7 +87,7 @@ const Header = () => {
           </motion.div>
 
           <nav className="hidden lg:flex items-center gap-8">
-            {["400 Agentes IA", "Crescimento", "vs Tradicionais"].map((item, index) => (
+            {["+ de 380 Agentes IA", "Crescimento", "vs Tradicionais"].map((item, index) => (
               <motion.a
                 key={item}
                 href={`#section-${index + 1}`}
@@ -126,7 +126,7 @@ const Header = () => {
             >
               <div className="container mx-auto px-6 py-4">
                 <nav className="flex flex-col gap-4">
-                  {["400 Agentes IA", "Crescimento", "vs Tradicionais"].map((item, index) => (
+                  {["+ de 380 Agentes IA", "Crescimento", "vs Tradicionais"].map((item, index) => (
                     <motion.a
                       key={item}
                       href={`#section-${index + 1}`}
@@ -203,7 +203,7 @@ const HeroSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
               Revolução AaaS
             </span>
             <br />
-            Chegou: 400 Consultores ESG Digitais 24/7
+            Chegou: + de 380 Consultores ESG Digitais 24/7
           </motion.h1>
 
           {/* Botão Growth Specialist com animação suave */}
@@ -234,14 +234,14 @@ const HeroSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
             className="text-xl lg:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed"
           >
             Enquanto o mundo usa <strong>SaaS + Big4 Consulting</strong>, nós desenvolvemos uma arquitetura{" "}
-            <strong>AaaS (Agent as a Service)</strong> - 400 especialistas digitais que executam compliance ESG para
-            você. <strong>Não é ferramenta. É um time completo.</strong>
+            <strong>AaaS (Agent as a Service)</strong> - + de 380 especialistas digitais que executam compliance ESG
+            para você. <strong>Não é ferramenta. É um time completo.</strong>
           </motion.p>
 
           <motion.div variants={staggerContainer} className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {[
               { icon: Brain, number: "AaaS", label: "Primeira Arquitetura\nAgent as a Service" },
-              { icon: Users, number: "400", label: "Consultores Digitais\nEspecializados ESG" },
+              { icon: Users, number: "+ de 380", label: "Consultores Digitais\nEspecializados ESG" },
               { icon: Zap, number: "24/7", label: "Disponibilidade\nSem Pausas" },
               { icon: Globe, number: "$30T", label: "Mercado ESG Global\nEm Expansão" },
             ].map((metric, index) => (
@@ -253,27 +253,6 @@ const HeroSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
                 </GlassmorphismCard>
               </motion.div>
             ))}
-          </motion.div>
-
-          <motion.div variants={fadeInUp} className="mb-12">
-            <GlassmorphismCard className="p-8 border-amber-500/30">
-              <div className="text-amber-400 font-bold text-xl mb-6">
-                ⚡ Janela de Oportunidade Histórica - Regulações Vigentes
-              </div>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                {[
-                  { region: "🇪🇺 Europa (CSRD/VSME)", status: "VIGENTE 2025" },
-                  { region: "🇺🇸 Estados Unidos (SEC Climate)", status: "VIGENTE 2025" },
-                  { region: "🇧🇷 Brasil (Lei 14.030/FEBRABAN)", status: "OBRIGATÓRIO 2025" },
-                  { region: "🌍 Taxonomia Verde Global", status: "EXPANSÃO 2025-2027" },
-                ].map((item, index) => (
-                  <div key={index} className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
-                    <span className="text-white font-medium">{item.region}</span>
-                    <span className="text-amber-400 font-bold text-sm">{item.status}</span>
-                  </div>
-                ))}
-              </div>
-            </GlassmorphismCard>
           </motion.div>
 
           {/* Apenas o botão de diagnóstico centralizado */}
@@ -308,12 +287,11 @@ const AgentsArchitecture = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
             REVOLUÇÃO TECNOLÓGICA
           </div>
           <h2 className="text-4xl lg:text-6xl font-black text-slate-900 mb-6">
-            Como Criamos a Primeira Arquitetura de 400 Agentes ESG do Mundo
+            Como Criamos a Primeira Arquitetura de + de 380 Agentes ESG do Mundo
           </h2>
           <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
-            3 anos, $8 milhões investidos e <strong>+50 especialistas ESG internacionais</strong> trabalhando para
-            resolver o maior desafio do compliance empresarial: contextualização inteligente com time completo de
-            consultores digitais.
+            <strong>+50 especialistas ESG internacionais</strong> trabalhando para resolver o maior desafio do
+            compliance empresarial: contextualização inteligente com time completo de consultores digitais.
           </p>
         </motion.div>
 
@@ -336,12 +314,12 @@ const AgentsArchitecture = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
               icon: Target,
               title: "Desenvolvimento",
               description:
-                "Desenvolvemos 400 agentes especializados: 1 para Declaração ESG + 49 Temáticos + 350 para Resolução de Incidentes. Todos aprendem automaticamente sobre qualquer empresa e colaboram entre si.",
+                "Desenvolvemos + de 380 agentes especializados: 1 para Declaração ESG + 49 Temáticos + 330+ para Resolução de Incidentes. Todos aprendem automaticamente sobre qualquer empresa e colaboram entre si.",
               features: [
                 "Machine Learning contextual para ESG",
                 "Base de conhecimento de 500+ frameworks globais",
                 "Integração com dados organizacionais em tempo real",
-                "Coordenação colaborativa automática entre 400 agentes",
+                "Coordenação colaborativa automática entre + de 380 agentes",
                 "Especialistas dedicados para cada tipo de incidente",
               ],
             },
@@ -380,7 +358,7 @@ const AgentsArchitecture = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
                       {index === 0
                         ? "O Problema que Descobrimos"
                         : index === 1
-                          ? "A Arquitetura Revolucionária de 400 Agentes"
+                          ? "A Arquitetura Revolucionária de + de 380 Agentes"
                           : "Testado por Especialistas Globais"}
                     </h4>
                     <ul className="space-y-2">
@@ -410,7 +388,7 @@ const AgentsArchitecture = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
             </h3>
             <p className="text-xl text-slate-700 leading-relaxed">
               <span className="bg-gradient-to-r from-emerald-600 to-blue-600 bg-clip-text text-transparent font-bold">
-                Arquitetura de 400 Agentes ESG Especializados
+                Arquitetura de + de 380 Agentes ESG Especializados
               </span>{" "}
               - O primeiro e único time de consultores digitais ESG do mundo. Cada{" "}
               <strong>agente domina frameworks específicos</strong> e se contextualiza automaticamente com sua
@@ -568,7 +546,7 @@ const ComparisonSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
           <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
             Não é que consultores sejam inadequados.{" "}
             <strong>
-              É que nossa arquitetura de 400 agentes especializados é exponencialmente superior em velocidade
+              É que nossa arquitetura de + de 380 agentes especializados é exponencialmente superior em velocidade
             </strong>
             , consistência e capacidade de processamento. Os números falam por si.
           </p>
@@ -608,7 +586,7 @@ const ComparisonSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
           >
             <Card className="p-8 text-center bg-emerald-50/80 border-emerald-200/50 shadow-2xl">
               <div className="text-6xl mb-4">🤖</div>
-              <h3 className="text-2xl font-bold text-emerald-700 mb-2">400 Agentes AaaS</h3>
+              <h3 className="text-2xl font-bold text-emerald-700 mb-2">+ de 380 Agentes AaaS</h3>
               <p className="text-emerald-600">Primeira arquitetura AaaS do mundo</p>
             </Card>
           </motion.div>
@@ -619,7 +597,7 @@ const ComparisonSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
             {
               title: "⚡ Velocidade de Análise Completa",
               traditional: { value: "2-4 semanas", detail: "Para análise básica" },
-              ai: { value: "15 minutos", detail: "Análise completa 400 agentes" },
+              ai: { value: "15 minutos", detail: "Análise completa + de 380 agentes" },
             },
             {
               title: "🎯 Consistência de Qualidade",
@@ -629,7 +607,7 @@ const ComparisonSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
             {
               title: "👨‍💼 Especialistas Simultâneos",
               traditional: { value: "3-5", detail: "Consultores por projeto" },
-              ai: { value: "400", detail: "Agentes especializados 24/7" },
+              ai: { value: "+ de 380", detail: "Agentes especializados 24/7" },
             },
             {
               title: "📊 Capacidade Simultânea",
@@ -637,9 +615,9 @@ const ComparisonSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
               ai: { value: "Ilimitada", detail: "Milhares simultâneos" },
             },
             {
-              title: "💰 Custo por Hora de 400 Especialistas",
-              traditional: { value: "$200k", detail: "400 consultores Big4/hora" },
-              ai: { value: "$12", detail: "400 agentes/hora" },
+              title: "💰 Custo por Hora de + de 380 Especialistas",
+              traditional: { value: "$200k", detail: "+ de 380 consultores Big4/hora" },
+              ai: { value: "$12", detail: "+ de 380 agentes/hora" },
             },
           ].map((comparison, index) => (
             <motion.div
@@ -695,12 +673,12 @@ const ComparisonSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
             <p className="text-xl text-slate-700 mb-8 leading-relaxed">
               Enquanto o mercado global ainda depende de consultores humanos e templates genéricos,{" "}
               <strong>ESG|Frame criou a primeira arquitetura de IA verdadeiramente especializada</strong> que funciona
-              como um time de 400 consultores digitais trabalhando 24/7 na sua empresa.
+              como um time de + de 380 consultores digitais trabalhando 24/7 na sua empresa.
             </p>
             <ul className="text-left max-w-3xl mx-auto space-y-4 mb-8">
               {[
                 "Vantagem Tecnológica: Anos à frente da concorrência global",
-                "Competitive Moat: Impossível de replicar sem $8MM+ investimento",
+                "Competitive Moat: Impossível de replicar sem investimento massivo",
                 "Market Timing: Pioneiros capturam vantagem duradoura",
                 "ROI Comprovado: 650-8.000% retorno primeiro ano",
                 "Global Scalability: Pronto para expansão internacional",
@@ -713,8 +691,8 @@ const ComparisonSection = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
             </ul>
             <div className="bg-blue-50/80 border border-blue-200/50 rounded-2xl p-6">
               <p className="text-blue-800 font-bold text-xl">
-                ⚡ Por isso somos os únicos com AaaS: barreira impossível de replicar. Você contrata 400 consultores por
-                fração do custo de 1 consultor tradicional.
+                ⚡ Por isso somos os únicos com AaaS: barreira impossível de replicar. Você contrata + de 380
+                consultores por fração do custo de 1 consultor tradicional.
               </p>
             </div>
           </Card>
@@ -738,7 +716,7 @@ const FinalCTA = ({ setIsChatOpen }: { setIsChatOpen: any }) => {
           <p className="text-xl lg:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed opacity-90">
             <strong>Última janela de oportunidade:</strong> Regulações vigentes + $30 trilhões em investimento ESG +
             competitive window aberto = momento histórico para market leadership. Enquanto concorrentes ainda usam
-            métodos tradicionais, você pode ter 400 consultores digitais especializados trabalhando na sua vantagem
+            métodos tradicionais, você pode ter + de 380 consultores digitais especializados trabalhando na sua vantagem
             competitiva.
           </p>
           <div className="flex flex-col lg:flex-row gap-4 lg:gap-6 justify-center items-center px-4">
@@ -780,7 +758,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-slate-400 leading-relaxed mb-6">
-              A primeira e única plataforma global com 400 agentes de IA ESG especializados que se contextualizam
+              A primeira e única plataforma global com + de 380 agentes de IA ESG especializados que se contextualizam
               automaticamente com sua empresa, setor e desafios específicos.
             </p>
             <div className="text-blue-400 font-semibold">
@@ -793,7 +771,7 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-6">Plataforma</h4>
             <ul className="space-y-3">
-              {["400 Agentes IA", "Crescimento ESG", "vs Concorrentes", "Portal Login"].map((item) => (
+              {["+ de 380 Agentes IA", "Crescimento ESG", "vs Concorrentes", "Portal Login"].map((item) => (
                 <li key={item}>
                   <a href="#" className="text-slate-400 hover:text-emerald-400 transition-colors">
                     {item}
@@ -831,7 +809,7 @@ const Footer = () => {
         <div className="border-t border-slate-700 pt-8">
           <div className="text-center text-slate-500 mb-4">
             <p>
-              &copy; 2025 ESG|Frame® by F2W LLC. Todos os direitos reservados. | Primeira plataforma global com 400
+              &copy; 2025 ESG|Frame® by F2W LLC. Todos os direitos reservados. | Primeira plataforma global com + de 380
               agentes IA ESG especializados.
             </p>
           </div>
@@ -934,8 +912,13 @@ export default function ESGLandingPage() {
                 )}
                 <iframe
                   src="https://dify.frame2.work/chat/O3ffieGRDiMuciLs"
-                  style={{ width: "100%", height: "100%", minHeight: "700px" }}
-                  frameBorder="0"
+                  className="w-full h-full border-0"
+                  style={{
+                    width: "100%",
+                    height: "calc(85vh - 64px)",
+                    minHeight: "600px",
+                    border: "none",
+                  }}
                   allow="microphone"
                   title="Growth Specialist"
                   onLoad={() => setIsChatLoading(false)}
