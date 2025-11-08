@@ -1,2 +1,0 @@
-<!-- Usar o símbolo ESG|Frame como favicon -->
-<link rel="icon" href="/images/esg-frame-symbol.png" type="image/png">
