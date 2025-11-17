@@ -2,24 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
-import {
-  Brain,
-  Target,
-  Zap,
-  Globe,
-  TrendingUp,
-  Users,
-  CheckCircle,
-  Calendar,
-  Menu,
-  X,
-  Sparkles,
-  Rocket,
-  Award,
-  Building,
-  Bot,
-  Loader2,
-} from "lucide-react"
+import { Brain, Target, Zap, Globe, TrendingUp, Users, CheckCircle, Calendar, Menu, X, Sparkles, Rocket, Award, Building, Bot, Loader2 } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -875,7 +858,7 @@ export default function ESGLandingPage() {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              className="bg-white rounded-2xl shadow-2xl w-full max-w-4xl h-[85vh] m-4 overflow-hidden"
+              className="bg-white rounded-2xl shadow-2xl w-[90vw] h-[90vh] overflow-hidden"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between p-4 border-b border-slate-200">
@@ -889,7 +872,7 @@ export default function ESGLandingPage() {
                   <X className="w-5 h-5" />
                 </Button>
               </div>
-              <div className="relative h-full">
+              <div className="relative h-[calc(100%-65px)]">
                 {/* Loading personalizado */}
                 {isChatLoading && (
                   <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-emerald-50 to-blue-50 z-10">
@@ -899,26 +882,20 @@ export default function ESGLandingPage() {
                       className="w-16 h-16 border-4 border-emerald-200 border-t-emerald-600 rounded-full mb-6"
                     />
                     <div className="text-center">
-                      <h4 className="text-2xl font-bold text-slate-800 mb-2">🚀 Conectando com Growth Specialist</h4>
+                      <h4 className="text-2xl font-bold text-slate-800 mb-2">Conectando com Growth Specialist</h4>
                       <p className="text-slate-600 mb-4">
                         Preparando sua sessão personalizada com nosso especialista em crescimento ESG...
                       </p>
                       <div className="flex items-center justify-center gap-2 text-emerald-600 font-semibold">
                         <Loader2 className="w-4 h-4 animate-spin" />
-                        Carregando sistema de 400 agentes
+                        Carregando sistema de + de 380 agentes
                       </div>
                     </div>
                   </div>
                 )}
                 <iframe
-                  src="https://dify.frame2.work/chat/O3ffieGRDiMuciLs"
-                  className="w-full h-full border-0"
-                  style={{
-                    width: "100%",
-                    height: "calc(85vh - 64px)",
-                    minHeight: "600px",
-                    border: "none",
-                  }}
+                  src="https://dify.frame2.work/chatbot/O3ffieGRDiMuciLs"
+                  style={{ width: "100%", height: "100%", border: "none" }}
                   allow="microphone"
                   title="Growth Specialist"
                   onLoad={() => setIsChatLoading(false)}
