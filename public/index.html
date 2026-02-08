@@ -1,0 +1,2777 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESG|Frame — AIS: Integrated Sustainability Assessment</title>
+    <meta name="description"
+        content="Proprietary AIS methodology with 381 AI agents for continuous ESG management. 49 universal topics derived from 10+ international frameworks. Sustainability, Simplified.">
+    <link rel="icon" type="image/png"
+        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAABCGlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGA8wQAELAYMDLl5JUVB7k4KEZFRCuwPGBiBEAwSk4sLGHADoKpv1yBqL+viUYcLcKakFicD6Q9ArFIEtBxopAiQLZIOYWuA2EkQtg2IXV5SUAJkB4DYRSFBzkB2CpCtkY7ETkJiJxcUgdT3ANk2uTmlyQh3M/Ck5oUGA2kOIJZhKGYIYnBncAL5H6IkfxEDg8VXBgbmCQixpJkMDNtbGRgkbiHEVBYwMPC3MDBsO48QQ4RJQWJRIliIBYiZ0tIYGD4tZ2DgjWRgEL7AwMAVDQsIHG5TALvNnSEfCNMZchhSgSKeDHkMyQx6QJYRgwGDIYMZAKbWPz9HbOBQAAAIyUlEQVR4nI2WaXBUVRbHzzn39ZLupjtJZ7Gzks1AIpkkjiREZFEZwoACiriMVAmMDs5oCTjlVsUoLqCUloBm2BzcQEcNwoRBNjWyJUEETdQYIS6EhCyQdCeddLr7vXvPfOiAC7Fqbt0P77069/+/595z7/uhUgp+2RgQkCPPyIDAChiQJINSTMAEBrIAQQoRGQWDigyKDEEc0mEGABzGAC9KD4WGQQoAgeLnYQoApEIkBo4EIgzTtOE+MgAgD+lLVmYSANDU3vZDx1kGFkq6YuPGpGXahZDMYWCLAgQEGkZrmAwik0NGBaizsgjxUeMXB4/WxjijU5JSYxxOfXCws6vj9LmujLTUP11bTgoCaAgSFgb+/wwkAgMLnRmEeG3HtgG/f/rUaV19/oZTp06dPh0b774yMysjNfVA/bHWH39Yesf8GItVsUISl0gNY8ColBSCFWtE66u26cHw3Btuur/ixb2HD/cNBuIui/P1dEcZlJeduXbpIwP9ve/V7H9uwf120pAILmwhAEYK5dfLhgwMEGZAgIa20z6vd87Nc2f/47Gq/dXSYs3PH1O1omLelBlBu/XTc53Tl9zninaXjC6srj2CJBRLAEaO9CHBS/YFQRJrhhJEnUZwTEHhlu1VtQ31MZ5EnY25E6es3bghL+PyFHdCDFkDrB7ZWDEqNVvabIioUCgkBEIABBUpll8bKABDKZNJ7K6r+eSD3dE2+666mhE2Z3dowGWxJlls/z60qzPoy/Ok9vd4o+zOz5pPtnZ3/3iy+eUd7xKSYlAMAAIunIZLMlBsFZb1+3YdbGp46t7FozOzz/R0SbPIsMekWWxdge4H592V4nT1BXqTRybpxByUMVb7kjvm2Sy2la9s0KVU8LMFumjAkS4VCbH1SPWZzo6Vdy16dc/2+pbmwrSMgN+bn5W57oknrSZaPPOWRDQtu+vuhdNmD/b3OUbYrJq2fuf7M6fNyM3JffnN14BIKlbMFwyG7DjEipA+b2358MvPnpm38O29u2pONY50uedcO5kYPqo/vqZqW5TZ7guHhc1S+0XDv95/T5eh64uKi7Myzgf8K97ceMvESVEu1zvVH2pEbMihLdWZpVIsjZA0FPNjmyqaWlqOftu45M2Kk77uRS+u6NH1e158CaZeD7PKCxb+ef0nh6Y9+xTcVA7TJxb9ZUFPIPTUq5sO19d/WFe3dkdliPmva1a19nRLJZWSSjEpAARgyWYSJ75vRkGZqalb9lTdWz47xxVbPvbqpzdXrFh090v3Lc5PTj55pvnx1av2fVydahvxwIw5+1546d2D+0walRUUXF1S0t7Z3uH1Tigt2117iJAMxQCsEQAyKGQEOPpNw4TikuNnfox3x+XEeQaDwZllE4TFvHzzmtsml//n8RWNvq6z589nmJypnkQwjNXbt0Y7HA/duUDqutVkuu73JXvqDs2+burK1zcYzJFzp2kKGEAREkB79/k/lk3++NOa4tFjmFkIHNDDM64sLUrL3HnkQNexT112l9Pu+E7vPdHUgBrMuKqsNDdfSgOIFUBBRs7Hnx+LNluIRGePN9kdq5TSQCmlgWARAGUYoRjXiLPezuz0NMUsJLEJ9WDYE5+waNYtg4bR0tHuDwaFSUt1u+McTgDQQ2EWQMi61MFh8fu9MhxOd8X29PqS3bEAoAExAyKgVNLCKMP6jWUTcpLTBRFYSQCAAKUMXcoozZybknrxvPhlmEE4LebIuwYQL0zzp98kBflIN2ioTDWDEACYlZ00p4gKBkMFadk7Dh0+/NUXPaEBR5St7IrCmePGR5k0KZlQMbCBKEFZUZhI1HzbVHmw2ufzIWFxzug7/zDNLjTyh9x229CVF2JlAgZWzNQXCHTo4YfWVuw9Vhc2IbDSFJklXFs05rkH/54V4xZK15CYSbEihcu3bl6+/Y2RMSlLb5v/WVvzG++8dYUn/YWHH52QlaNpQEQIgpARJTCwZDnC4Xh49Qs7q/dbXE6nzZEVnxptdZDT/t/DB5Y+u2LA0BkQGFgpIcTzuyqXb/7nDeOmPLNw8ba9ey0S1zz0xPlA4PZnln3X50Nhivx9SDAAsFRKE6b9tXXdgYFVy5ZlWW1zysY/cOutN0+a6HE7Vy17Uig+eLTWRJpUijTRNxjatHPHnJlzr8ktXLJ65YGmY5sqX686sO/RBYsspG2ofFcAsgQAIAJgQgRGgPpTTS5zVOnlozSSURYx6OsWVnAYelnO5eg0nWj+BgAMBgD4qqmpIHfU8/MXYWhw/qxZz939wJN/W3pFVtbv4pLWPvio1+8FBSAIAEhh5EoiBs7Py0vNSDnSeLysqBBYJXs8ZqUmFBYerf88xzNy3OgCKSUyS6WiL4v7uvHLPUdrRuWN6vP1ZEXHJ5odCXYnWU1vv1+JEdphhYikkAGBgFiqq4uvbDn9/bOvrJtUOjkgrE9v2aLp5uJx4594a9OJ081XjR0nhDCbzYIoz5Ocn5zW3nuue8D3dWfLd97OU76OpnMtZ5W/d9A3aWwJIEQKFZUyGBEVSClJ0zZ+sGPvieOexPR1W7Y6PIn9HW333HG7t729fGxp6aj8Eye/SvMkdXm9iU5XcnpG27kOUxi79ECS3R02woFQwG42C7MYnZVtQyQkJEI2DCVQAZJiAFCEPX7/usptr+7ZYzgsQWNg8fXT50+9MTkhztfff6S5UWMygHOTkrITk7v6eltb2w80NnSHgmapUhISriksSk9IJGCDpYk0gYQsFSPwBVpkVkRCMrR5e/qCAZvVkh4b33S2rWr37qTkJHu0yypMypC+QX/z983jxxRNKRn3w9m2vsF+E5ni4+MTHCOAGRgAhxhpOHRkRsSLiAkMQVbe/v7Wrs6+fr8hJStlsVqS4y9LccdZhSD6iRmVUogRJET4LTa9aBOZAiEiA9Bw5GkwIChiHSQBCUC8BFB/0+AXQaAifgoYAZBBIjKSQCSGCGoC4LD4Oyz8XpINIBP+JMOACBE/QKYh3h8WruF/bhBj8VORdDoAAAAASUVORK5CYII=">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
+        rel="stylesheet">
+    <style>
+        /* ============================================
+           ESG|Frame — New Homepage v2
+           EN primary, PT secondary
+           Design: Hybrid modern + institutional
+           ============================================ */
+
+        :root {
+            --primary: #7367F0;
+            --primary-dark: #5A4FD6;
+            --primary-deeper: #4839EB;
+            --primary-light: rgba(115, 103, 240, 0.08);
+            --primary-glow: rgba(115, 103, 240, 0.12);
+            --accent: #1B7A6E;
+            --accent-dark: #15655A;
+            --accent-light: rgba(27, 122, 110, 0.08);
+            --success: #28C76F;
+            --success-light: rgba(40, 199, 111, 0.08);
+            --danger: #EA5455;
+            --info: #00CFE8;
+            --info-light: rgba(0, 207, 232, 0.08);
+            --dark: #0c1029;
+            --dark-mid: #161b3a;
+            --dark-card: #1c2248;
+            --dark-border: rgba(255, 255, 255, 0.07);
+            --text-dark: #1a1f3d;
+            --text-body: #4a4f6a;
+            --text-muted: #7c82a1;
+            --text-light: #a8adc4;
+            --bg: #f7f8fc;
+            --bg-warm: #fefefe;
+            --border: rgba(115, 103, 240, 0.1);
+            --border-subtle: rgba(0, 0, 0, 0.05);
+            --shadow-sm: 0 2px 12px rgba(115, 103, 240, 0.06);
+            --shadow-md: 0 8px 32px rgba(115, 103, 240, 0.08);
+            --shadow-lg: 0 20px 60px rgba(115, 103, 240, 0.1);
+            --shadow-xl: 0 32px 80px rgba(10, 12, 40, 0.15);
+            --radius: 16px;
+            --radius-sm: 10px;
+            --radius-xs: 6px;
+            --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--bg);
+            color: var(--text-body);
+            line-height: 1.7;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* ===== UTILITIES ===== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .container-wide {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .serif {
+            font-family: 'DM Serif Display', serif;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, var(--primary) 0%, #9b8afb 40%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 16px;
+            background: var(--primary-light);
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--primary);
+            font-weight: 600;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+        }
+
+        .section-tag::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: var(--primary);
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .section-tag.on-dark {
+            background: rgba(115, 103, 240, 0.15);
+            border-color: rgba(115, 103, 240, 0.25);
+        }
+
+        /* ===== NAV ===== */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 0 24px;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            background: rgba(247, 248, 252, 0.88);
+            backdrop-filter: blur(24px) saturate(180%);
+            -webkit-backdrop-filter: blur(24px) saturate(180%);
+            border-bottom: 1px solid transparent;
+            transition: all var(--transition);
+        }
+
+        nav.scrolled {
+            border-bottom-color: var(--border-subtle);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+        }
+
+        .nav-logo {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+        }
+
+        .nav-logo .sep {
+            color: var(--accent);
+            font-weight: 400;
+        }
+
+        .nav-slogan {
+            font-size: 0.5rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            margin-top: 1px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-size: 0.84rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+            letter-spacing: 0.01em;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            border-radius: 1px;
+            transition: width 0.2s;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .lang-toggle {
+            display: flex;
+            background: var(--primary-light);
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+
+        .lang-toggle button {
+            padding: 6px 12px;
+            border: none;
+            background: transparent;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s;
+            letter-spacing: 0.05em;
+        }
+
+        .lang-toggle button.active {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-nav {
+            padding: 10px 24px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: var(--radius-xs);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition);
+            letter-spacing: 0.01em;
+            text-decoration: none;
+        }
+
+        .btn-nav:hover {
+            background: var(--primary-dark);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 16px rgba(115, 103, 240, 0.3);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .mobile-menu-btn span {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: var(--text-dark);
+            margin: 5px 0;
+            transition: all 0.3s;
+            border-radius: 2px;
+        }
+
+        /* ===== BUTTONS ===== */
+        .btn-primary {
+            padding: 15px 32px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(115, 103, 240, 0.3);
+        }
+
+        .btn-outline {
+            padding: 15px 32px;
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--border);
+            border-radius: var(--radius-sm);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-outline:hover {
+            border-color: var(--primary);
+            background: var(--primary-light);
+        }
+
+        .btn-accent {
+            padding: 15px 32px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-accent:hover {
+            background: var(--accent-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(27, 122, 110, 0.3);
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            padding: 140px 0 80px;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(180deg, var(--bg) 0%, white 100%);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -300px;
+            right: -200px;
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, var(--primary-glow) 0%, transparent 65%);
+            pointer-events: none;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -150px;
+            left: -100px;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(27, 122, 110, 0.05) 0%, transparent 65%);
+            pointer-events: none;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translate(0, 0);
+            }
+
+            50% {
+                transform: translate(-20px, 20px);
+            }
+        }
+
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content {
+            max-width: 720px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 18px;
+            background: var(--primary-light);
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            margin-bottom: 32px;
+        }
+
+        .hero-badge span {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--primary);
+            letter-spacing: 0.04em;
+        }
+
+        .hero-badge .dot {
+            width: 6px;
+            height: 6px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: blink 2s infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+        }
+
+        .hero h1 {
+            font-size: clamp(2.6rem, 5.5vw, 3.8rem);
+            font-weight: 800;
+            line-height: 1.08;
+            color: var(--text-dark);
+            letter-spacing: -0.03em;
+            margin-bottom: 24px;
+        }
+
+        .hero p.lead {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            line-height: 1.75;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* ===== STATS BAR ===== */
+        .stats-bar {
+            padding: 56px 0;
+            background: white;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 32px;
+            text-align: center;
+        }
+
+        .stat-item .stat-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1;
+        }
+
+        .stat-item .stat-label {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-top: 8px;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        /* ===== GENERAL SECTIONS ===== */
+        section {
+            padding: 100px 0;
+        }
+
+        section h2 {
+            font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+            font-weight: 800;
+            color: var(--text-dark);
+            line-height: 1.12;
+            letter-spacing: -0.025em;
+            margin-bottom: 16px;
+        }
+
+        section .section-lead {
+            font-size: 1.05rem;
+            color: var(--text-muted);
+            max-width: 640px;
+            margin-bottom: 56px;
+            line-height: 1.75;
+        }
+
+        /* ===== PROBLEM ===== */
+        .problem-section {
+            background: var(--bg);
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .problem-card {
+            padding: 28px;
+            border-radius: var(--radius);
+            background: white;
+            border: 1px solid var(--border-subtle);
+            border-left: 4px solid var(--danger);
+            transition: all var(--transition);
+        }
+
+        .problem-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        .problem-card .icon {
+            font-size: 1.5rem;
+            margin-bottom: 16px;
+        }
+
+        .problem-card h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .problem-card p {
+            font-size: 0.86rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        .problem-table-wrap {
+            background: white;
+            border-radius: var(--radius);
+            padding: 32px;
+            border: 1px solid var(--border-subtle);
+            overflow-x: auto;
+        }
+
+        .problem-table-wrap table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 500px;
+        }
+
+        .problem-table-wrap th {
+            text-align: left;
+            padding: 10px 16px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            border-bottom: 2px solid var(--border-subtle);
+        }
+
+        .problem-table-wrap td {
+            padding: 12px 16px;
+            font-size: 0.86rem;
+            border-bottom: 1px solid var(--border-subtle);
+            color: var(--text-body);
+        }
+
+        .problem-table-wrap tr:last-child td {
+            border-bottom: none;
+        }
+
+        .dim {
+            color: var(--text-muted);
+        }
+
+        /* ===== SOLUTION ===== */
+        .solution-section {
+            background: white;
+        }
+
+        .solution-features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .sf-card {
+            padding: 32px;
+            background: var(--bg);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-subtle);
+            transition: all var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .sf-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--primary);
+            opacity: 0;
+            transition: opacity var(--transition);
+        }
+
+        .sf-card:hover {
+            border-color: var(--primary);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-3px);
+        }
+
+        .sf-card:hover::before {
+            opacity: 1;
+        }
+
+        .sf-card .sf-num {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.68rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 12px;
+            letter-spacing: 0.1em;
+        }
+
+        .sf-card h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+        }
+
+        .sf-card p {
+            font-size: 0.86rem;
+            color: var(--text-muted);
+            line-height: 1.65;
+        }
+
+        /* ===== CYCLE ===== */
+        .cycle-section {
+            background: var(--bg);
+        }
+
+        .cycle-flow {
+            display: flex;
+            gap: 0;
+            margin-top: 48px;
+            position: relative;
+        }
+
+        .cycle-flow::before {
+            content: '';
+            position: absolute;
+            top: 28px;
+            left: 40px;
+            right: 40px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--accent), var(--success), var(--info), #9b8afb);
+            border-radius: 2px;
+            opacity: 0.2;
+        }
+
+        .cycle-step {
+            flex: 1;
+            text-align: center;
+            padding: 0 12px;
+            position: relative;
+        }
+
+        .cycle-num {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            color: white;
+            font-weight: 700;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cycle-step:nth-child(1) .cycle-num {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            box-shadow: 0 4px 16px rgba(115, 103, 240, 0.3);
+        }
+
+        .cycle-step:nth-child(2) .cycle-num {
+            background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+            box-shadow: 0 4px 16px rgba(27, 122, 110, 0.3);
+        }
+
+        .cycle-step:nth-child(3) .cycle-num {
+            background: linear-gradient(135deg, var(--success), #1fa855);
+            box-shadow: 0 4px 16px rgba(40, 199, 111, 0.3);
+        }
+
+        .cycle-step:nth-child(4) .cycle-num {
+            background: linear-gradient(135deg, var(--info), #00a8c0);
+            box-shadow: 0 4px 16px rgba(0, 207, 232, 0.3);
+        }
+
+        .cycle-step:nth-child(5) .cycle-num {
+            background: linear-gradient(135deg, #9b8afb, var(--primary));
+            box-shadow: 0 4px 16px rgba(155, 138, 251, 0.3);
+        }
+
+        .cycle-step h4 {
+            font-size: 0.88rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 6px;
+        }
+
+        .cycle-step p {
+            font-size: 0.76rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+
+        .cycle-loop-label {
+            text-align: center;
+            margin-top: 24px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            color: var(--primary);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        /* ===== DASHBOARD SECTION ===== */
+        .dashboard-section {
+            background: var(--dark);
+            padding: 100px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .dashboard-section::before {
+            content: '';
+            position: absolute;
+            top: -200px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(115, 103, 240, 0.08) 0%, transparent 60%);
+        }
+
+        .dashboard-section h2 {
+            color: white;
+        }
+
+        .dashboard-section .section-lead {
+            color: var(--text-light);
+        }
+
+        .dashboard-section .section-tag {
+            background: rgba(115, 103, 240, 0.15);
+            border-color: rgba(115, 103, 240, 0.25);
+        }
+
+        .dashboard-frame {
+            margin-top: 48px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 32px 80px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: var(--dark-mid);
+            position: relative;
+        }
+
+        .dashboard-frame-bar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .frame-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .frame-dot:nth-child(1) {
+            background: #EA5455;
+        }
+
+        .frame-dot:nth-child(2) {
+            background: #1B7A6E;
+        }
+
+        .frame-dot:nth-child(3) {
+            background: #28C76F;
+        }
+
+        .frame-url {
+            flex: 1;
+            text-align: center;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            color: var(--text-light);
+            opacity: 0.5;
+        }
+
+        .dashboard-iframe-wrap {
+            width: 100%;
+            height: 700px;
+            background: var(--dark-card);
+        }
+
+        .dashboard-iframe-wrap iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .dashboard-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--text-light);
+        }
+
+        .dashboard-placeholder .dp-icon {
+            font-size: 3rem;
+            margin-bottom: 16px;
+            opacity: 0.4;
+        }
+
+        .dashboard-placeholder p {
+            font-size: 0.9rem;
+            opacity: 0.6;
+        }
+
+        /* ===== FRAMEWORKS ===== */
+        .frameworks-section {
+            background: white;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .fw-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: 48px;
+        }
+
+        .fw-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 20px;
+            background: var(--bg);
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border-subtle);
+            transition: all var(--transition);
+        }
+
+        .fw-item:hover {
+            border-color: var(--primary);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .fw-badge {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.66rem;
+            font-weight: 700;
+            padding: 6px 12px;
+            border-radius: 6px;
+            background: var(--primary);
+            color: white;
+            min-width: 52px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        .fw-name {
+            font-size: 0.88rem;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .fw-desc {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .fw-quote {
+            margin-top: 48px;
+            padding: 36px;
+            position: relative;
+            background: var(--primary-light);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            text-align: center;
+        }
+
+        .fw-quote::before {
+            content: '"';
+            position: absolute;
+            top: 12px;
+            left: 24px;
+            font-size: 3rem;
+            color: var(--primary);
+            opacity: 0.15;
+            font-family: 'DM Serif Display', serif;
+        }
+
+        .fw-quote p {
+            font-size: 1.1rem;
+            font-weight: 500;
+            font-style: italic;
+            color: var(--text-dark);
+            max-width: 680px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        .fw-quote .author {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 12px;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        /* ===== AUDIENCE ===== */
+        .audience-section {
+            background: var(--bg);
+        }
+
+        .audience-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+            margin-top: 48px;
+        }
+
+        .audience-card {
+            padding: 44px 36px;
+            border-radius: var(--radius);
+            position: relative;
+            overflow: hidden;
+            transition: all var(--transition);
+            background: white;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .audience-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px);
+        }
+
+        .audience-card.for-companies {
+            border-top: 4px solid var(--primary);
+        }
+
+        .audience-card.for-consultants {
+            border-top: 4px solid var(--accent);
+        }
+
+        .audience-card .aud-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 1.4rem;
+        }
+
+        .for-companies .aud-icon {
+            background: var(--primary-light);
+        }
+
+        .for-consultants .aud-icon {
+            background: var(--accent-light);
+        }
+
+        .audience-card h3 {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--text-dark);
+            margin-bottom: 12px;
+        }
+
+        .audience-card .aud-desc {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            margin-bottom: 28px;
+            line-height: 1.7;
+        }
+
+        .aud-features {
+            list-style: none;
+            margin-bottom: 32px;
+        }
+
+        .aud-features li {
+            padding: 7px 0;
+            font-size: 0.86rem;
+            color: var(--text-body);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .aud-features li .check {
+            color: var(--success);
+            font-weight: 700;
+            flex-shrink: 0;
+            font-size: 0.9rem;
+        }
+
+        .btn-audience {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border-radius: var(--radius-sm);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.86rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .for-companies .btn-audience {
+            background: var(--primary);
+            color: white;
+        }
+
+        .for-companies .btn-audience:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(115, 103, 240, 0.3);
+        }
+
+        .for-consultants .btn-audience {
+            background: var(--accent);
+            color: white;
+        }
+
+        .for-consultants .btn-audience:hover {
+            background: var(--accent-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(27, 122, 110, 0.3);
+        }
+
+        /* ===== REGULATORY ===== */
+        .regulatory-section {
+            background: white;
+        }
+
+        .reg-timeline {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top: 48px;
+        }
+
+        .reg-item {
+            padding: 28px 24px;
+            background: var(--bg);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-subtle);
+            border-top: 4px solid;
+            position: relative;
+            transition: all var(--transition);
+        }
+
+        .reg-item:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-3px);
+        }
+
+        .reg-item:nth-child(1) {
+            border-top-color: var(--primary);
+        }
+
+        .reg-item:nth-child(2) {
+            border-top-color: var(--accent);
+        }
+
+        .reg-item:nth-child(3) {
+            border-top-color: var(--danger);
+        }
+
+        .reg-item:nth-child(4) {
+            border-top-color: var(--success);
+        }
+
+        .reg-year {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .reg-item h4 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .reg-item p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+        }
+
+        /* ===== BLOG / INSTITUTIONAL ===== */
+        .blog-section {
+            background: var(--bg);
+        }
+
+        .blog-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 40px;
+        }
+
+        .blog-header .section-lead {
+            margin-bottom: 0;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .blog-card {
+            background: white;
+            border-radius: var(--radius);
+            overflow: hidden;
+            border: 1px solid var(--border-subtle);
+            transition: all var(--transition);
+        }
+
+        .blog-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px);
+        }
+
+        .blog-card-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: linear-gradient(135deg, var(--primary-light), rgba(27, 122, 110, 0.08));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .blog-card-img .placeholder-icon {
+            font-size: 2.5rem;
+            opacity: 0.4;
+        }
+
+        .blog-card-body {
+            padding: 24px;
+        }
+
+        .blog-card-tag {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.62rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 10px;
+        }
+
+        .blog-card-body h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+
+        .blog-card-body p {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .blog-card-body a {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .blog-card-body a:hover {
+            gap: 8px;
+        }
+
+        .btn-view-all {
+            font-size: 0.86rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 20px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xs);
+            transition: all var(--transition);
+        }
+
+        .btn-view-all:hover {
+            background: var(--primary-light);
+            border-color: var(--primary);
+        }
+
+        /* ===== CTA ===== */
+        .cta-section {
+            background: linear-gradient(135deg, var(--dark) 0%, #151838 50%, #1a1040 100%);
+            padding: 100px 0;
+            text-align: center;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 900px;
+            height: 900px;
+            background: radial-gradient(circle, rgba(115, 103, 240, 0.06) 0%, transparent 60%);
+        }
+
+        .cta-section .container {
+            position: relative;
+        }
+
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            color: var(--text-light);
+            max-width: 560px;
+            margin: 0 auto 40px;
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        .cta-actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-cta-primary {
+            padding: 16px 36px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition);
+            text-decoration: none;
+        }
+
+        .btn-cta-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(115, 103, 240, 0.35);
+        }
+
+        .btn-cta-outline {
+            padding: 16px 36px;
+            background: transparent;
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.15);
+            border-radius: var(--radius-sm);
+            font-family: 'Montserrat', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all var(--transition);
+            text-decoration: none;
+        }
+
+        .btn-cta-outline:hover {
+            border-color: rgba(255, 255, 255, 0.4);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            background: var(--dark);
+            color: var(--text-light);
+            padding: 64px 0 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 48px;
+        }
+
+        .footer-brand .footer-logo {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 4px;
+        }
+
+        .footer-brand .footer-logo .sep {
+            color: var(--accent);
+        }
+
+        .footer-brand .footer-slogan {
+            font-size: 0.6rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .footer-brand p {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            max-width: 280px;
+            line-height: 1.7;
+        }
+
+        .footer-col h4 {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 16px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 10px;
+        }
+
+        .footer-col a {
+            font-size: 0.84rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-col a:hover {
+            color: var(--primary);
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+            margin-top: 16px;
+        }
+
+        .footer-social .social-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            transition: all var(--transition);
+        }
+
+        .footer-social .social-icon:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .footer-bottom {
+            padding-top: 24px;
+            padding-bottom: 64px;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.72rem;
+            color: var(--text-muted);
+        }
+
+        .footer-bottom a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        /* ===== CHAT BOT WIDGET ===== */
+        .chat-fab {
+            position: fixed;
+            bottom: 28px;
+            right: 28px;
+            z-index: 9999;
+            height: 52px;
+            padding: 0 28px;
+            border-radius: 26px;
+            background: linear-gradient(135deg, #7367F0 0%, #9b8afb 50%, #00CFE8 100%);
+            color: white;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 0.88rem;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            box-shadow: 0 8px 32px rgba(115, 103, 240, 0.4);
+            transition: all var(--transition);
+            white-space: nowrap;
+        }
+
+        .chat-fab:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 40px rgba(115, 103, 240, 0.5);
+        }
+
+        .chat-fab .fab-icon {
+            font-size: 1.1rem;
+        }
+
+        .chat-fab.active {
+            border-radius: 50%;
+            width: 52px;
+            padding: 0;
+        }
+
+        .chat-fab-tooltip {
+            position: fixed;
+            bottom: 88px;
+            right: 28px;
+            z-index: 9998;
+            background: white;
+            color: var(--text-dark);
+            padding: 10px 16px;
+            border-radius: 10px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border-subtle);
+            opacity: 0;
+            transform: translateY(8px);
+            transition: all 0.3s;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        .chat-fab-tooltip.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .chat-fab-tooltip::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            right: 22px;
+            width: 12px;
+            height: 12px;
+            background: white;
+            border: 1px solid var(--border-subtle);
+            border-top: none;
+            border-left: none;
+            transform: rotate(45deg);
+        }
+
+        .chat-window {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.95);
+            width: 90vw;
+            max-width: 1080px;
+            height: 80vh;
+            max-height: 840px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 24px 80px rgba(0, 0, 0, 0.25);
+            border: 1px solid var(--border-subtle);
+            overflow: hidden;
+            display: none;
+            margin: 0;
+            bottom: auto;
+            right: auto;
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 10000;
+        }
+
+        .chat-window.open {
+            display: flex;
+            flex-direction: column;
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .chat-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(12, 16, 41, 0.6);
+            backdrop-filter: blur(4px);
+            z-index: 9999;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .chat-overlay.open {
+            display: block;
+            opacity: 1;
+        }
+
+        .chat-window iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            flex: 1;
+        }
+
+        @keyframes chatIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px) scale(0.95);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        .chat-window-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+            background: var(--primary);
+            color: white;
+        }
+
+        .chat-window-header .cwh-left {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .cwh-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+        }
+
+        .cwh-info .cwh-name {
+            font-size: 0.88rem;
+            font-weight: 700;
+        }
+
+        .cwh-info .cwh-status {
+            font-size: 0.68rem;
+            opacity: 0.8;
+        }
+
+        .chat-window-close {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.3rem;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+            padding: 4px;
+        }
+
+        .chat-window-close:hover {
+            opacity: 1;
+        }
+
+        .chat-window iframe {
+            width: 100%;
+            height: calc(100% - 60px);
+            border: none;
+        }
+
+        /* ===== SCROLL ANIMATIONS ===== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-d1 {
+            transition-delay: 0.1s;
+        }
+
+        .reveal-d2 {
+            transition-delay: 0.2s;
+        }
+
+        .reveal-d3 {
+            transition-delay: 0.3s;
+        }
+
+        .reveal-d4 {
+            transition-delay: 0.4s;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 24px;
+            }
+
+            .problem-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .solution-features {
+                grid-template-columns: 1fr;
+            }
+
+            .fw-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .audience-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .reg-timeline {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .blog-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+
+            .dashboard-iframe-wrap {
+                height: 600px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            section {
+                padding: 72px 0;
+            }
+
+            .hero {
+                padding: 120px 0 60px;
+            }
+
+            .cycle-flow {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .cycle-flow::before {
+                display: none;
+            }
+
+            .cycle-step {
+                text-align: left;
+                display: flex;
+                gap: 16px;
+                align-items: flex-start;
+            }
+
+            .cycle-num {
+                margin: 0;
+                flex-shrink: 0;
+                width: 44px;
+                height: 44px;
+                font-size: 0.9rem;
+            }
+
+            .fw-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .reg-timeline {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .dashboard-iframe-wrap {
+                height: 480px;
+            }
+
+            .dashboard-section {
+                padding: 72px 0;
+            }
+
+            .chat-window {
+                width: calc(100vw - 24px);
+                right: 12px;
+                bottom: 92px;
+                height: 70vh;
+            }
+
+            .chat-fab {
+                padding: 0 20px;
+                font-size: 0.82rem;
+                height: 48px;
+            }
+
+            .chat-fab .fab-label {
+                display: none;
+            }
+
+            .chat-fab {
+                width: 48px;
+                padding: 0;
+                border-radius: 50%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-actions {
+                flex-direction: column;
+            }
+
+            .btn-primary,
+            .btn-outline {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .cta-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .btn-cta-primary,
+            .btn-cta-outline {
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 8px;
+                text-align: center;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .dashboard-iframe-wrap {
+                height: 380px;
+            }
+
+            .footer-social {
+                gap: 8px;
+            }
+
+            .footer-social .social-icon {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== NAV ===== -->
+    <nav id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-brand">
+                <div class="nav-logo"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAIAAABPIytRAAABCGlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGA8wQAELAYMDLl5JUVB7k4KEZFRCuwPGBiBEAwSk4sLGHADoKpv1yBqL+viUYcLcKakFicD6Q9ArFIEtBxopAiQLZIOYWuA2EkQtg2IXV5SUAJkB4DYRSFBzkB2CpCtkY7ETkJiJxcUgdT3ANk2uTmlyQh3M/Ck5oUGA2kOIJZhKGYIYnBncAL5H6IkfxEDg8VXBgbmCQixpJkMDNtbGRgkbiHEVBYwMPC3MDBsO48QQ4RJQWJRIliIBYiZ0tIYGD4tZ2DgjWRgEL7AwMAVDQsIHG5TALvNnSEfCNMZchhSgSKeDHkMyQx6QJYRgwGDIYMZAKbWPz9HbOBQAAAEMUlEQVR4nF2USWyTZxCG3/n+z44dG68hkDix45DQJCxSCJCmBVFC2KoitRzaQw9VpZ56QKqqqlK5VlWlViCVU7dLi0SKkFp1kdpAECAhBGUrBJwFQuyQ2k7Mn8QLXn5/3/TAmo7mNJp3ZjTS+5DWGk+CCQAEQ7EWwqAndcUamgSBCQQQEQBmllgSLJiYYQijWClPZzLMimyyva6RDFhKSxAIzPyom57bzATNWpAhLk+MTtxPOJ0upbTDEPPFQt/qrlWhJouVDYKfCJaImRWRPH/75szsnFmtnhg+ZRbzEV9g/67d1WL+xc6ujoYwwEQEEADx9GJiZhgl5rncYqpUfv/LL+5ls28PvDYUG/ngq8N2uzOeSgkhNBiP8zmxBTaEuD42ajEd/eNP2MSmaPv12Mi2dT3mnHns3JmypUeT96WQrEFgAI8fppltQp68cS1fyLU1NN/NpDqaoo0el9vjcpjzdaGGmdRc96r201cuakt1hSOaFQESIAUlhTEyM53Ozjd5fOmc2VIX8Hj92/v6oh7PRHLu1PWr7U2h8eR0U1vbtVgs6PfXu90AU1UzWDHop7PDraHQzfuTdS5fLm+9e+jzzubIm9t3HP71eC3omwMfVcpFCOEPBufnzf0vbdVakaW1JBpPztyajpfKpb0bNidSqctTE84a9+CZIXMh17pyxf7+geRs8vXerebDwlQ6mS0WdnVvCtS6JCmGpPTCA5shq4Z01zi6oq0waDx+752B3bqqHULkswt7ejbX+zxOhz12746zpiadyQTCLgloQBQrZbskn8snpQSwvmXVC+GWdCbzsFJxOx0NweUGAMDrdHlqHYqpWKkAkFqwAUhLRyMtNkMeHR5iu23H+u5Gry9cvwIAgwm4lUhcuD3ikHLfy1tvJO4KoQGQxVroqlI4cenSgSNHMtkH0BQJBr89eHBn11rLKttsNYPDQx8e/e6N3oHE4mz87uTXH3+yKRIBkRAKRCJXKg2ePun3evZt6d/Tt8XwLvvx99/ypaKUtuTCwme/HH+1Z9vwlYuLucVwc+TTYz+wIYlIgpnIuDU12Rlt7Qg324XMlgt9a1bn84vxdLIz3PLP2Nhb23Y2LAs4JEGiv3PjudtXU2amKbhcsCRovaa1bXI2XmH1EAjUehOZtFksdoRbBYlwU+PYndEcVercy8L1KyfNfzPmbNDjBTMpVqy0YchDPw/+PTF14tx5V619X+/GvRt714VCZiEf9Aeqgu5MTecrlo3I7bRHGxvXNkcIRKyqVSFIacMwroyPfz/0l+EU7/XvsSnEs2axYrkd9nqPt1Y6L4yOOOz2V7p7Vni9VVU1DPnMz8wsxGOTKeBSLFYolwRQsiorff4N7auf4UYzETH4eRhAMz9CjEFE4plbAbDSWjCYnjLsfyRZ0qxZK8BgKAIT2YgEM2PJxP8AjwMMZMQ9uiIAAAAASUVORK5CYII="
+                        alt="ESG|Frame" style="height:22px;width:auto;vertical-align:middle;margin-right:6px;">ESG<span
+                        class="sep">|</span>Frame</div>
+                <div class="nav-slogan" data-i18n="slogan">Sustainability, Simplified</div>
+            </a>
+            <ul class="nav-links">
+                <a href="#methodology" data-i18n="nav_methodology">Methodology</a>
+                <a href="#dashboard" data-i18n="nav_dashboard">Dashboard</a>
+                <a href="#frameworks" data-i18n="nav_frameworks">Frameworks</a>
+                <a href="#audience" data-i18n="nav_audience">Solutions</a>
+                <a href="partnership.html" data-i18n="nav_partners">Partners</a>
+                <a href="#blog" data-i18n="nav_blog">Insights</a>
+            </ul>
+            <div class="nav-right">
+                <div class="lang-toggle">
+                    <button onclick="setLang('en')" class="active">EN</button>
+                    <button onclick="setLang('pt')">PT</button>
+                </div>
+                <a href="https://app.frame2.work" class="btn-nav" data-i18n="nav_cta" target="_blank">Access →</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge reveal">
+                    <div class="dot"></div>
+                    <span data-i18n="hero_badge">AIS Methodology v3.0</span>
+                </div>
+                <h1 class="reveal reveal-d1">
+                    <span data-i18n="hero_title_1">Your company doesn't need to</span><br>
+                    <span data-i18n="hero_title_2">fill out frameworks.</span><br>
+                    <span class="gradient-text" data-i18n="hero_title_3">It needs to live ESG.</span>
+                </h1>
+                <p class="lead reveal reveal-d2" data-i18n="hero_lead">
+                    The AIS methodology transforms 49 universal topics into real practices. 381 AI agents organize,
+                    analyze, and track progress. Your team implements. Any framework becomes a natural consequence.
+                </p>
+                <div class="hero-actions reveal reveal-d3">
+                    <a href="https://calendly.com/contact-esgframe/30min" target="_blank" class="btn-primary"
+                        data-i18n="hero_cta_1">Book a Demo →</a>
+                    <a href="#methodology" class="btn-outline" data-i18n="hero_cta_2">Explore the Methodology</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DASHBOARD (hero follow-up) ===== -->
+    <section class="dashboard-section" id="dashboard">
+        <div class="container-wide">
+            <div class="container">
+                <div class="section-tag on-dark reveal" data-i18n="dash_tag">Live Dashboard</div>
+                <h2 class="reveal" data-i18n="dash_title">See your ESG reality.<br>Not a static report.</h2>
+                <p class="section-lead reveal" data-i18n="dash_lead">
+                    Materiality matrix, risk heatmap, opportunity roadmap, EU Taxonomy alignment, and maturity score —
+                    all generated from your real organizational data. A film, not a photo.
+                </p>
+            </div>
+            <div class="dashboard-frame reveal">
+                <div class="dashboard-frame-bar">
+                    <div class="frame-dot"></div>
+                    <div class="frame-dot"></div>
+                    <div class="frame-dot"></div>
+                    <div class="frame-url">dashboard.esgframe.com/demo</div>
+                </div>
+                <div class="dashboard-iframe-wrap">
+                    <iframe src="https://mcamargo.adv.br/dashboardesg" title="ESG Dashboard Demo"
+                        style="width:100%; height:100%; border:none;" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS BAR ===== -->
+    <div class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <div class="stat-number">49</div>
+                    <div class="stat-label" data-i18n="stat_1">Universal ESG Topics</div>
+                </div>
+                <div class="stat-item reveal reveal-d1">
+                    <div class="stat-number">381</div>
+                    <div class="stat-label" data-i18n="stat_2">Specialized<br>AI Agents</div>
+                </div>
+                <div class="stat-item reveal reveal-d2">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label" data-i18n="stat_3">Integrated<br>Frameworks</div>
+                </div>
+                <div class="stat-item reveal reveal-d3">
+                    <div class="stat-number">E1→E5</div>
+                    <div class="stat-label" data-i18n="stat_4">Maturity<br>Scale</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== PROBLEM ===== -->
+    <section class="problem-section" id="problem">
+        <div class="container">
+            <div class="section-tag reveal" data-i18n="problem_tag">The Problem</div>
+            <h2 class="reveal" data-i18n="problem_title">The traditional model is<br>broken. And expensive.</h2>
+            <p class="section-lead reveal" data-i18n="problem_lead">
+                Fragmented, one-off ESG consulting that takes the knowledge away when the project ends.
+            </p>
+            <div class="problem-grid">
+                <div class="problem-card reveal">
+                    <div class="icon">💸</div>
+                    <h3 data-i18n="p1_title">Prohibitive Cost</h3>
+                    <p data-i18n="p1_desc">5-7 specialized consultants. USD 15,000–50,000/month. Out of reach for most
+                        organizations.</p>
+                </div>
+                <div class="problem-card reveal reveal-d1">
+                    <div class="icon">🚪</div>
+                    <h3 data-i18n="p2_title">Knowledge Walks Out</h3>
+                    <p data-i18n="p2_desc">The expertise stays with the consultant. When the project ends, the
+                        organization is back to square one.</p>
+                </div>
+                <div class="problem-card reveal reveal-d2">
+                    <div class="icon">📸</div>
+                    <h3 data-i18n="p3_title">Snapshot, Not a Film</h3>
+                    <p data-i18n="p3_desc">ESG treated as a one-time project. Not as a continuous evolution process that
+                        grows with the organization.</p>
+                </div>
+            </div>
+            <div class="problem-table-wrap reveal">
+                <table>
+                    <thead>
+                        <tr>
+                            <th data-i18n="t_aspect">Aspect</th>
+                            <th data-i18n="t_traditional">Traditional Model</th>
+                            <th data-i18n="t_impact">Impact</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong data-i18n="tr1a">Expertise</strong></td>
+                            <td class="dim" data-i18n="tr1b">5-7 different consultants</td>
+                            <td class="dim" data-i18n="tr1c">Fragmentation &amp; inconsistency</td>
+                        </tr>
+                        <tr>
+                            <td><strong data-i18n="tr2a">Cost</strong></td>
+                            <td class="dim" data-i18n="tr2b">USD 15,000 – 50,000+/mo</td>
+                            <td class="dim" data-i18n="tr2c">Inaccessible for SMEs</td>
+                        </tr>
+                        <tr>
+                            <td><strong data-i18n="tr3a">Knowledge</strong></td>
+                            <td class="dim" data-i18n="tr3b">Leaves with the consultant</td>
+                            <td class="dim" data-i18n="tr3c">Perpetual dependency</td>
+                        </tr>
+                        <tr>
+                            <td><strong data-i18n="tr4a">Scalability</strong></td>
+                            <td class="dim" data-i18n="tr4b">Linear (more people = more cost)</td>
+                            <td class="dim" data-i18n="tr4c">Doesn't scale</td>
+                        </tr>
+                        <tr>
+                            <td><strong data-i18n="tr5a">Continuity</strong></td>
+                            <td class="dim" data-i18n="tr5b">One-time project</td>
+                            <td class="dim" data-i18n="tr5c">No continuous evolution</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== METHODOLOGY / SOLUTION ===== -->
+    <section class="solution-section" id="methodology">
+        <div class="container">
+            <div class="section-tag reveal" data-i18n="sol_tag">AIS Methodology</div>
+            <h2 class="reveal"><span data-i18n="sol_title">Real practices first.</span><br><span class="gradient-text"
+                    data-i18n="sol_title2">Frameworks as a consequence.</span></h2>
+            <p class="section-lead reveal" data-i18n="sol_lead">
+                The Integrated Sustainability Assessment (AIS) synthesized 10+ international frameworks into 49
+                universal topics every organization needs to address. Implement real ESG practices and respond to any
+                framework naturally.
+            </p>
+            <div class="solution-features">
+                <div class="sf-card reveal">
+                    <div class="sf-num">01</div>
+                    <h3 data-i18n="sf1t">49 Universal Topics</h3>
+                    <p data-i18n="sf1d">Derived from comparative analysis of ABNT PR 2030, GRI, SASB, ESRS, IFRS S1/S2,
+                        NBC TDS, EU Taxonomy and more. Each topic is a real area the organization must address.</p>
+                </div>
+                <div class="sf-card reveal reveal-d1">
+                    <div class="sf-num">02</div>
+                    <h3 data-i18n="sf2t">Incident = Practice to Implement</h3>
+                    <p data-i18n="sf2d">Each identified gap becomes an incident with an action plan. Resolving incidents
+                        means implementing real ESG practices — documented policies, processes, and protocols.</p>
+                </div>
+                <div class="sf-card reveal reveal-d2">
+                    <div class="sf-num">03</div>
+                    <h3 data-i18n="sf3t">381 Specialized Agents</h3>
+                    <p data-i18n="sf3d">They organize information, identify gaps, suggest prioritized actions and
+                        generate drafts. Every output goes through human validation. AI processes, humans decide.
+                        Always.</p>
+                </div>
+                <div class="sf-card reveal reveal-d3">
+                    <div class="sf-num">04</div>
+                    <h3 data-i18n="sf4t">Institutional Knowledge Base</h3>
+                    <p data-i18n="sf4d">By resolving incidents, the organization builds real knowledge: policies,
+                        evidence, metrics. This enables responding to any framework with genuine substance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CYCLE ===== -->
+    <section class="cycle-section">
+        <div class="container">
+            <div class="section-tag reveal" data-i18n="cy_tag">Continuous Cycle</div>
+            <h2 class="reveal" data-i18n="cy_title">ESG isn't a project.<br>It's a maturity journey.</h2>
+            <p class="section-lead reveal" data-i18n="cy_lead">
+                From assessment to practice: every resolved incident is a real ESG practice implemented. The score
+                evolves. Maturity grows. The cycle never ends.
+            </p>
+            <div class="cycle-flow">
+                <div class="cycle-step reveal">
+                    <div class="cycle-num">1</div>
+                    <div>
+                        <h4 data-i18n="cy1t">Assessment</h4>
+                        <p data-i18n="cy1d">Evaluation of 49 topics via smart questionnaires and evidence</p>
+                    </div>
+                </div>
+                <div class="cycle-step reveal reveal-d1">
+                    <div class="cycle-num">2</div>
+                    <div>
+                        <h4 data-i18n="cy2t">Incidents</h4>
+                        <p data-i18n="cy2d">Identified gaps become practices and processes to implement</p>
+                    </div>
+                </div>
+                <div class="cycle-step reveal reveal-d2">
+                    <div class="cycle-num">3</div>
+                    <div>
+                        <h4 data-i18n="cy3t">Resolution</h4>
+                        <p data-i18n="cy3d">Team + consultant + AI implement each practice with audit trail</p>
+                    </div>
+                </div>
+                <div class="cycle-step reveal reveal-d3">
+                    <div class="cycle-num">4</div>
+                    <div>
+                        <h4 data-i18n="cy4t">Knowledge Base</h4>
+                        <p data-i18n="cy4d">Evidence and learnings consolidated as institutional memory</p>
+                    </div>
+                </div>
+                <div class="cycle-step reveal reveal-d4">
+                    <div class="cycle-num">5</div>
+                    <div>
+                        <h4 data-i18n="cy5t">Maturity</h4>
+                        <p data-i18n="cy5d">Score evolves: E1 → E2 → E3 → E4 → E5. New cycle begins.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cycle-loop-label reveal" data-i18n="cy_loop">↺ Continuous improvement — the cycle restarts at a
+                higher maturity level</div>
+        </div>
+    </section>
+
+    <!-- ===== FRAMEWORKS ===== -->
+    <section class="frameworks-section" id="frameworks">
+        <div class="container">
+            <div class="section-tag reveal" data-i18n="fw_tag">Integrated Frameworks</div>
+            <h2 class="reveal" data-i18n="fw_title">Prepared for any<br>framework. All of them.</h2>
+            <p class="section-lead reveal" data-i18n="fw_lead">
+                The AIS methodology was built from comparative analysis of these frameworks. Those who implement AIS
+                build the capacity to respond to all of them.
+            </p>
+            <div class="fw-grid">
+                <div class="fw-item reveal">
+                    <div class="fw-badge">ABNT</div>
+                    <div>
+                        <div class="fw-name">ABNT PR 2030</div>
+                        <div class="fw-desc" data-i18n="fwi1">Brazilian recommended practice — 43 base criteria</div>
+                    </div>
+                </div>
+                <div class="fw-item reveal reveal-d1">
+                    <div class="fw-badge">GRI</div>
+                    <div>
+                        <div class="fw-name">GRI Standards</div>
+                        <div class="fw-desc" data-i18n="fwi2">Impact reporting — global standard</div>
+                    </div>
+                </div>
+                <div class="fw-item reveal">
+                    <div class="fw-badge">SASB</div>
+                    <div>
+                        <div class="fw-name">SASB Standards</div>
+                        <div class="fw-desc" data-i18n="fwi3">77 industry-specific standards</div>
+                    </div>
+                </div>
+                <div class="fw-item reveal reveal-d1">
+                    <div class="fw-badge">ESRS</div>
+                    <div>
+                        <div class="fw-name">CSRD / ESRS</div>
+                        <div class="fw-desc" data-i18n="fwi4">European sustainability directive</div>
+                    </div>
+                </div>
+                <div class="fw-item reveal">
+                    <div class="fw-badge">IFRS</div>
+                    <div>
+                        <div class="fw-name">IFRS S1 &amp; S2</div>
+                        <div class="fw-desc" data-i18n="fwi5">ISSB global baseline</div>
+                    </div>
+                </div>
+                <div class="fw-item reveal reveal-d1">
+                    <div class="fw-badge">NBC</div>
+                    <div>
+                        <div class="fw-name">NBC TDS 1/2</div>
+                        <div class="fw-desc" data-i18n="fwi6">Brazilian mandatory standards 2026</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fw-quote reveal">
+                <p data-i18n="fw_quote">"Those who implement real ESG practices can respond to any framework. Those who
+                    only fill out forms don't evolve."</p>
+                <div class="author" data-i18n="fw_author">— AIS Philosophy</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== AUDIENCE ===== -->
+    <section class="audience-section" id="audience">
+        <div class="container">
+            <div class="section-tag reveal" data-i18n="aud_tag">Solutions</div>
+            <h2 class="reveal" data-i18n="aud_title">Two paths.<br>Same destination: ESG maturity.</h2>
+            <p class="section-lead reveal" data-i18n="aud_lead">
+                Organizations wanting to structure ESG internally, or consultants wanting to scale their practice with
+                technology.
+            </p>
+            <div class="audience-grid">
+                <div class="audience-card for-companies reveal">
+                    <div class="aud-icon">🏢</div>
+                    <h3 data-i18n="co_title">For Organizations</h3>
+                    <p class="aud-desc" data-i18n="co_desc">Structure, implement, and demonstrate your ESG with a
+                        methodology that tracks your evolution continuously.</p>
+                    <ul class="aud-features">
+                        <li><span class="check">✓</span> <span data-i18n="co_f1">Complete ESG maturity assessment</span>
+                        </li>
+                        <li><span class="check">✓</span> <span data-i18n="co_f2">Dynamic dashboard with real-time
+                                score</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="co_f3">381 agents that process and organize
+                                information</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="co_f4">Auditable institutional knowledge
+                                base</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="co_f5">Preparation for NBC TDS, CSRD, GRI and
+                                all frameworks</span></li>
+                    </ul>
+                    <a href="https://calendly.com/contact-esgframe/30min" target="_blank" class="btn-audience"
+                        data-i18n="co_cta">Book a Demo →</a>
+                </div>
+                <div class="audience-card for-consultants reveal reveal-d1">
+                    <div class="aud-icon">🎓</div>
+                    <h3 data-i18n="cs_title">For ESG Consultants</h3>
+                    <p class="aud-desc" data-i18n="cs_desc">Use the platform as infrastructure that amplifies your
+                        technical expertise. Your methodology, your client relationship, your intellectual authorship.
+                        The platform provides scale.</p>
+                    <ul class="aud-features">
+                        <li><span class="check">✓</span> <span data-i18n="cs_f1">Pre-sales dashboard the client can't
+                                forget</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="cs_f2">Serve more clients without losing
+                                quality</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="cs_f3">AI does the heavy analysis, you
+                                validate and lead</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="cs_f4">Consulting revenue 100% yours — no
+                                commission</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="cs_f5">90-day trial to explore the
+                                platform</span></li>
+                    </ul>
+                    <a href="partnership.html" class="btn-audience" data-i18n="cs_cta">Become a Partner →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== REGULATORY ===== -->
+    <section class="regulatory-section" id="regulatory">
+        <div class="container">
+            <div class="section-tag reveal" data-i18n="reg_tag">Regulatory Wave</div>
+            <h2 class="reveal" data-i18n="reg_title">ESG compliance is<br>becoming mandatory.</h2>
+            <p class="section-lead reveal" data-i18n="reg_lead">
+                Global convergence of standards creates urgency. Those who structure first will have competitive
+                advantage.
+            </p>
+            <div class="reg-timeline">
+                <div class="reg-item reveal">
+                    <div class="reg-year">2024</div>
+                    <h4>ABNT PR 2030</h4>
+                    <p data-i18n="rg1">Brazilian ESG recommended practice. Foundation for national certification.</p>
+                </div>
+                <div class="reg-item reveal reveal-d1">
+                    <div class="reg-year">2025</div>
+                    <h4>CSRD / ESRS</h4>
+                    <p data-i18n="rg2">Mandatory European directive for large companies and value chains.</p>
+                </div>
+                <div class="reg-item reveal reveal-d2">
+                    <div class="reg-year">2026</div>
+                    <h4>NBC TDS + CVM 193</h4>
+                    <p data-i18n="rg3">Brazilian mandatory standards for listed companies. Sustainability disclosure.
+                    </p>
+                </div>
+                <div class="reg-item reveal reveal-d3">
+                    <div class="reg-year">2027+</div>
+                    <h4>VSME + ISSA 5000</h4>
+                    <p data-i18n="rg4">European SME standards and international sustainability assurance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BLOG / INSIGHTS ===== -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <div class="blog-header">
+                <div>
+                    <div class="section-tag reveal" data-i18n="blog_tag">Insights</div>
+                    <h2 class="reveal" data-i18n="blog_title">Knowledge hub.</h2>
+                    <p class="section-lead reveal" data-i18n="blog_lead">
+                        Research, analysis, and practical guides on ESG implementation, regulatory updates, and
+                        sustainability strategy.
+                    </p>
+                </div>
+                <a href="/blog" class="btn-view-all reveal" data-i18n="blog_all">View all articles →</a>
+            </div>
+            <div class="blog-grid">
+                <!-- Blog cards — these would be dynamically loaded. Showing 3 placeholders. -->
+                <article class="blog-card reveal">
+                    <div class="blog-card-img"><span class="placeholder-icon">📋</span></div>
+                    <div class="blog-card-body">
+                        <div class="blog-card-tag" data-i18n="blog_cat_reg">Regulation</div>
+                        <h3 data-i18n="blog1t">NBC TDS 2026: What Brazilian Companies Need to Know Now</h3>
+                        <p data-i18n="blog1d">A practical breakdown of the new mandatory sustainability disclosure
+                            standards coming into effect for listed companies.</p>
+                        <a href="#" data-i18n="blog_read">Read more →</a>
+                    </div>
+                </article>
+                <article class="blog-card reveal reveal-d1">
+                    <div class="blog-card-img"><span class="placeholder-icon">🔬</span></div>
+                    <div class="blog-card-body">
+                        <div class="blog-card-tag" data-i18n="blog_cat_method">Methodology</div>
+                        <h3 data-i18n="blog2t">From 10+ Frameworks to 49 Universal Topics: How AIS Was Built</h3>
+                        <p data-i18n="blog2d">The research process behind the Integrated Sustainability Assessment
+                            methodology and its comparative framework analysis.</p>
+                        <a href="#" data-i18n="blog_read">Read more →</a>
+                    </div>
+                </article>
+                <article class="blog-card reveal reveal-d2">
+                    <div class="blog-card-img"><span class="placeholder-icon">🌍</span></div>
+                    <div class="blog-card-body">
+                        <div class="blog-card-tag" data-i18n="blog_cat_strategy">Strategy</div>
+                        <h3 data-i18n="blog3t">CSRD Readiness: A Step-by-Step Guide for Global Supply Chains</h3>
+                        <p data-i18n="blog3d">How organizations outside the EU can prepare for the extraterritorial
+                            effects of the Corporate Sustainability Reporting Directive.</p>
+                        <a href="#" data-i18n="blog_read">Read more →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="section-tag on-dark reveal" data-i18n="cta_tag">Get Started</div>
+            <h2 class="reveal"><span data-i18n="cta_title">The regulatory wave is coming.</span><br><span
+                    class="gradient-text" data-i18n="cta_title2">Those who structure first will lead.</span></h2>
+            <p class="reveal" data-i18n="cta_lead">Book a customized demo for your organization's context and see your
+                ESG maturity in real time.</p>
+            <div class="cta-actions reveal">
+                <a href="https://calendly.com/contact-esgframe/30min" target="_blank" class="btn-cta-primary"
+                    data-i18n="cta_btn1">Book a Demo</a>
+                <a href="partnership.html" class="btn-cta-outline" data-i18n="cta_btn2">Partnership Program</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAIAAABPIytRAAABCGlDQ1BJQ0MgUHJvZmlsZQAAeJxjYGA8wQAELAYMDLl5JUVB7k4KEZFRCuwPGBiBEAwSk4sLGHADoKpv1yBqL+viUYcLcKakFicD6Q9ArFIEtBxopAiQLZIOYWuA2EkQtg2IXV5SUAJkB4DYRSFBzkB2CpCtkY7ETkJiJxcUgdT3ANk2uTmlyQh3M/Ck5oUGA2kOIJZhKGYIYnBncAL5H6IkfxEDg8VXBgbmCQixpJkMDNtbGRgkbiHEVBYwMPC3MDBsO48QQ4RJQWJRIliIBYiZ0tIYGD4tZ2DgjWRgEL7AwMAVDQsIHG5TALvNnSEfCNMZchhSgSKeDHkMyQx6QJYRgwGDIYMZAKbWPz9HbOBQAAAEMUlEQVR4nF2USWyTZxCG3/n+z44dG68hkDix45DQJCxSCJCmBVFC2KoitRzaQw9VpZ56QKqqqlK5VlWlViCVU7dLi0SKkFp1kdpAECAhBGUrBJwFQuyQ2k7Mn8QLXn5/3/TAmo7mNJp3ZjTS+5DWGk+CCQAEQ7EWwqAndcUamgSBCQQQEQBmllgSLJiYYQijWClPZzLMimyyva6RDFhKSxAIzPyom57bzATNWpAhLk+MTtxPOJ0upbTDEPPFQt/qrlWhJouVDYKfCJaImRWRPH/75szsnFmtnhg+ZRbzEV9g/67d1WL+xc6ujoYwwEQEEADx9GJiZhgl5rncYqpUfv/LL+5ls28PvDYUG/ngq8N2uzOeSgkhNBiP8zmxBTaEuD42ajEd/eNP2MSmaPv12Mi2dT3mnHns3JmypUeT96WQrEFgAI8fppltQp68cS1fyLU1NN/NpDqaoo0el9vjcpjzdaGGmdRc96r201cuakt1hSOaFQESIAUlhTEyM53Ozjd5fOmc2VIX8Hj92/v6oh7PRHLu1PWr7U2h8eR0U1vbtVgs6PfXu90AU1UzWDHop7PDraHQzfuTdS5fLm+9e+jzzubIm9t3HP71eC3omwMfVcpFCOEPBufnzf0vbdVakaW1JBpPztyajpfKpb0bNidSqctTE84a9+CZIXMh17pyxf7+geRs8vXerebDwlQ6mS0WdnVvCtS6JCmGpPTCA5shq4Z01zi6oq0waDx+752B3bqqHULkswt7ejbX+zxOhz12746zpiadyQTCLgloQBQrZbskn8snpQSwvmXVC+GWdCbzsFJxOx0NweUGAMDrdHlqHYqpWKkAkFqwAUhLRyMtNkMeHR5iu23H+u5Gry9cvwIAgwm4lUhcuD3ikHLfy1tvJO4KoQGQxVroqlI4cenSgSNHMtkH0BQJBr89eHBn11rLKttsNYPDQx8e/e6N3oHE4mz87uTXH3+yKRIBkRAKRCJXKg2ePun3evZt6d/Tt8XwLvvx99/ypaKUtuTCwme/HH+1Z9vwlYuLucVwc+TTYz+wIYlIgpnIuDU12Rlt7Qg324XMlgt9a1bn84vxdLIz3PLP2Nhb23Y2LAs4JEGiv3PjudtXU2amKbhcsCRovaa1bXI2XmH1EAjUehOZtFksdoRbBYlwU+PYndEcVercy8L1KyfNfzPmbNDjBTMpVqy0YchDPw/+PTF14tx5V619X+/GvRt714VCZiEf9Aeqgu5MTecrlo3I7bRHGxvXNkcIRKyqVSFIacMwroyPfz/0l+EU7/XvsSnEs2axYrkd9nqPt1Y6L4yOOOz2V7p7Vni9VVU1DPnMz8wsxGOTKeBSLFYolwRQsiorff4N7auf4UYzETH4eRhAMz9CjEFE4plbAbDSWjCYnjLsfyRZ0qxZK8BgKAIT2YgEM2PJxP8AjwMMZMQ9uiIAAAAASUVORK5CYII="
+                            alt=""
+                            style="height:18px;width:auto;vertical-align:middle;margin-right:5px;filter:brightness(10);">ESG<span
+                            class="sep">|</span>Frame</div>
+                    <div class="footer-slogan" data-i18n="slogan">Sustainability, Simplified</div>
+                    <p data-i18n="footer_desc">AIS Methodology — Integrated Sustainability Assessment. 49 universal
+                        topics. 381 AI agents. Continuous ESG maturity journey.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_platform">Platform</h4>
+                    <ul>
+                        <li><a href="#methodology" data-i18n="footer_methodology">AIS Methodology</a></li>
+                        <li><a href="#dashboard" data-i18n="footer_dashboard">ESG Dashboard</a></li>
+                        <li><a href="#frameworks" data-i18n="footer_frameworks">Frameworks</a></li>
+                        <li><a href="#" data-i18n="footer_login">Portal Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_solutions">Solutions</h4>
+                    <ul>
+                        <li><a href="#audience" data-i18n="footer_orgs">Organizations</a></li>
+                        <li><a href="partnership.html" data-i18n="footer_consultants">Consultants</a></li>
+                        <li><a href="#blog" data-i18n="footer_insights">Insights</a></li>
+                        <li><a href="#" data-i18n="footer_resources">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-i18n="footer_contact">Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@esgframe.com">contact@esgframe.com</a></li>
+                        <li><a href="https://frame2.work" target="_blank">frame2.work</a></li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="#" target="_blank" aria-label="Facebook" class="social-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" aria-label="Instagram" class="social-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/esg-frame/" target="_blank" aria-label="LinkedIn"
+                            class="social-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" aria-label="X (Twitter)" class="social-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" aria-label="TikTok" class="social-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 ESG|Frame — <a href="https://frame2.work" target="_blank">F2W LLC</a>. All rights
+                    reserved.</span>
+                <span>Florida, USA · Global Operations · Florianópolis, SC · Brazil Operations</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== CHAT BOT (Dify) ===== -->
+    <div class="chat-overlay" id="chatOverlay" onclick="toggleChat()"></div>
+    <div class="chat-fab-tooltip" id="chatTooltip" data-i18n="chat_tooltip">Talk to our ESG AI Agent</div>
+    <button class="chat-fab" id="chatFab" aria-label="Chat with ESG Agent" onclick="toggleChat()">
+        <span class="fab-icon" id="chatIcon">🤖</span>
+        <span class="fab-label" data-i18n="chat_fab_label">Talk to our AI Agent</span>
+    </button>
+    <div class="chat-window" id="chatWindow">
+        <div class="chat-window-header">
+            <div class="cwh-left">
+                <div class="cwh-avatar">🤖</div>
+                <div class="cwh-info">
+                    <div class="cwh-name" data-i18n="chat_name">ESG|Frame Agent</div>
+                    <div class="cwh-status" data-i18n="chat_status">Online — Ask me anything about ESG</div>
+                </div>
+            </div>
+            <button class="chat-window-close" onclick="toggleChat()">&times;</button>
+        </div>
+        <iframe src="https://dify.frame2.work/chat/O3ffieGRDiMuciLs" title="ESG Agent Chat"></iframe>
+    </div>
+
+    <script>
+        // ===== NAV SCROLL =====
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => nav.classList.toggle('scrolled', window.scrollY > 20));
+
+        // ===== SCROLL REVEAL =====
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // ===== CHAT BOT =====
+        let chatOpen = false;
+        const chatWindow = document.getElementById('chatWindow');
+        const chatIcon = document.getElementById('chatIcon');
+        const chatTooltip = document.getElementById('chatTooltip');
+
+        function toggleChat() {
+            chatOpen = !chatOpen;
+            chatWindow.classList.toggle('open', chatOpen);
+            document.getElementById('chatOverlay').classList.toggle('open', chatOpen);
+            const fab = document.getElementById('chatFab');
+            const label = fab.querySelector('.fab-label');
+            if (chatOpen) {
+                chatIcon.textContent = '✕';
+                if (label) label.style.display = 'none';
+                fab.classList.add('active');
+            } else {
+                chatIcon.textContent = '🤖';
+                if (label) label.style.display = '';
+                fab.classList.remove('active');
+            }
+            chatTooltip.classList.remove('show');
+        }
+
+        // Show tooltip after 3 seconds
+        setTimeout(() => {
+            if (!chatOpen) {
+                chatTooltip.classList.add('show');
+                setTimeout(() => chatTooltip.classList.remove('show'), 5000);
+            }
+        }, 3000);
+
+        // ===== i18n =====
+        const T = {
+            pt: {
+                slogan: 'Sustentabilidade, Simplificada',
+                nav_methodology: 'Metodologia', nav_dashboard: 'Dashboard', nav_frameworks: 'Frameworks',
+                nav_audience: 'Soluções', nav_partners: 'Parceiros', nav_blog: 'Conteúdo', nav_cta: 'Acessar →',
+                hero_badge: 'Metodologia AIS v3.0',
+                hero_title_1: 'Sua empresa não precisa', hero_title_2: 'preencher frameworks.',
+                hero_title_3: 'Precisa viver ESG.',
+                hero_lead: 'A metodologia AIS transforma 49 temas universais em práticas reais. 381 agentes de IA organizam, analisam e acompanham. Sua equipe implementa. Qualquer framework vira consequência.',
+                hero_cta_1: 'Agendar Demonstração →', hero_cta_2: 'Conhecer a Metodologia',
+                stat_1: 'Temas Universais ESG', stat_2: 'Agentes de IA<br>Especializados', stat_3: 'Frameworks<br>Integrados', stat_4: 'Escala de<br>Maturidade',
+                problem_tag: 'O Problema', problem_title: 'O modelo tradicional está<br>quebrado. E custa caro.',
+                problem_lead: 'Consultoria ESG fragmentada, pontual e que leva o conhecimento embora quando o projeto acaba.',
+                p1_title: 'Custo Proibitivo', p1_desc: '5-7 consultores especializados. USD 15.000-50.000/mês. Inacessível para a maioria das organizações.',
+                p2_title: 'Conhecimento Sai pela Porta', p2_desc: 'O expertise fica com o consultor. Quando o projeto termina, a organização volta à estaca zero.',
+                p3_title: 'Foto, Não Filme', p3_desc: 'ESG tratado como projeto pontual com início e fim. Não como processo contínuo de evolução.',
+                t_aspect: 'Aspecto', t_traditional: 'Modelo Tradicional', t_impact: 'Impacto',
+                tr1a: 'Expertise', tr1b: '5-7 consultores diferentes', tr1c: 'Fragmentação e inconsistência',
+                tr2a: 'Custo', tr2b: 'USD 15.000 - 50.000+/mês', tr2c: 'Inacessível para PMEs',
+                tr3a: 'Conhecimento', tr3b: 'Sai com o consultor', tr3c: 'Dependência perpétua',
+                tr4a: 'Escalabilidade', tr4b: 'Linear (mais pessoas = mais custo)', tr4c: 'Não escala',
+                tr5a: 'Continuidade', tr5b: 'Projeto pontual', tr5c: 'Sem evolução contínua',
+                sol_tag: 'Metodologia AIS', sol_title: 'Práticas reais primeiro.', sol_title2: 'Frameworks como consequência.',
+                sol_lead: 'A Avaliação Integrada de Sustentabilidade (AIS) sintetizou 10+ frameworks internacionais em 49 temas universais que qualquer organização precisa enfrentar. Implemente práticas ESG reais e responda qualquer framework naturalmente.',
+                sf1t: '49 Temas Universais', sf1d: 'Derivados da análise comparativa de ABNT PR 2030, GRI, SASB, ESRS, IFRS S1/S2, NBC TDS, EU Taxonomy e outros. Cada tema é uma área real que a organização precisa enfrentar.',
+                sf2t: 'Incidente = Prática a Implementar', sf2d: 'Cada gap identificado vira um incidente com plano de ação. Resolver incidentes é implementar práticas ESG reais — políticas, processos e protocolos documentados.',
+                sf3t: '381 Agentes Especializados', sf3d: 'Organizam informações, identificam gaps, sugerem ações priorizadas e geram rascunhos. Cada output passa por validação humana. A IA processa, o humano decide. Sempre.',
+                sf4t: 'Knowledge Base Institucional', sf4d: 'Ao resolver incidentes, a organização acumula conhecimento real: políticas, evidências, métricas. Isso permite responder qualquer framework com subsídios verdadeiros.',
+                cy_tag: 'Ciclo Contínuo', cy_title: 'ESG não é projeto.<br>É jornada de maturidade.',
+                cy_lead: 'Da avaliação à prática: cada incidente resolvido é uma prática ESG real implementada. O score evolui. A maturidade cresce.',
+                cy1t: 'Diagnóstico', cy1d: 'Avaliação dos 49 temas via questionários inteligentes e evidências',
+                cy2t: 'Incidentes', cy2d: 'Gaps identificados viram práticas e processos a implementar',
+                cy3t: 'Resolução', cy3d: 'Equipe + consultor + IA implementam cada prática com trilha auditável',
+                cy4t: 'Knowledge Base', cy4d: 'Evidências e aprendizados consolidados como memória institucional',
+                cy5t: 'Maturidade', cy5d: 'Score evolui: E1 → E2 → E3 → E4 → E5. Novo ciclo inicia.',
+                cy_loop: '↺ Melhoria contínua — o ciclo reinicia em nível superior de maturidade',
+                dash_tag: 'Dashboard Interativo', dash_title: 'Veja a realidade ESG.<br>Não um relatório estático.',
+                dash_lead: 'Matriz de materialidade, heatmap de riscos, roadmap de oportunidades, alinhamento EU Taxonomy e score de maturidade — tudo gerado a partir dos dados reais da sua organização.',
+                dash_placeholder: 'Dashboard Interativo — Substitua com URL hospedada',
+                fw_tag: 'Frameworks Integrados', fw_title: 'Preparado para qualquer<br>framework. Todos eles.',
+                fw_lead: 'A metodologia AIS foi construída a partir da análise comparativa destes frameworks. Quem implementa o AIS, constrói capacidade de responder a todos.',
+                fwi1: 'Prática recomendada brasileira — 43 critérios base', fwi2: 'Relatórios de impacto — padrão global',
+                fwi3: '77 setores específicos', fwi4: 'Diretiva europeia de sustentabilidade',
+                fwi5: 'Baseline global ISSB', fwi6: 'Normas brasileiras obrigatórias 2026',
+                fw_quote: '"Quem implementa práticas ESG reais consegue responder qualquer framework. Quem só preenche formulários, não evolui."',
+                fw_author: '— Filosofia AIS',
+                aud_tag: 'Soluções', aud_title: 'Dois caminhos.<br>O mesmo destino: maturidade ESG.',
+                aud_lead: 'Organizações que querem estruturar ESG internamente ou consultores que querem escalar sua prática com tecnologia.',
+                co_title: 'Para Organizações', co_desc: 'Estruture, implemente e comprove seu ESG com uma metodologia que acompanha sua evolução de forma contínua.',
+                co_f1: 'Diagnóstico completo de maturidade ESG', co_f2: 'Dashboard dinâmico com score em tempo real',
+                co_f3: '381 agentes que processam e organizam informações', co_f4: 'Knowledge base institucional auditável',
+                co_f5: 'Preparação para NBC TDS, CSRD, GRI e todos os frameworks', co_cta: 'Agendar Demonstração →',
+                cs_title: 'Para Consultores ESG',
+                cs_desc: 'Use a plataforma como infraestrutura que amplifica seu conhecimento técnico. Sua metodologia, sua relação com o cliente, sua autoria intelectual. A plataforma dá escala.',
+                cs_f1: 'Dashboard de pré-venda que o cliente não consegue esquecer', cs_f2: 'Atenda mais clientes sem perder qualidade',
+                cs_f3: 'IA faz o trabalho pesado de análise, você valida e dirige', cs_f4: 'Receitas de consultoria 100% suas — sem comissão',
+                cs_f5: 'Trial de 90 dias para conhecer a plataforma', cs_cta: 'Quero Ser Parceiro →',
+                reg_tag: 'Onda Regulatória', reg_title: 'A conformidade ESG<br>está se tornando obrigatória.',
+                reg_lead: 'Convergência global de normas cria urgência. Quem se estruturar antes terá vantagem competitiva.',
+                rg1: 'Prática recomendada brasileira para ESG. Base para certificação nacional.',
+                rg2: 'Diretiva europeia obrigatória para grandes empresas e cadeias de valor.',
+                rg3: 'Normas brasileiras obrigatórias para empresas listadas. Divulgação de sustentabilidade.',
+                rg4: 'Padrões para PMEs europeias e assurance internacional de sustentabilidade.',
+                blog_tag: 'Conteúdo', blog_title: 'Central de conhecimento.', blog_lead: 'Pesquisas, análises e guias práticos sobre implementação ESG, atualizações regulatórias e estratégia de sustentabilidade.',
+                blog_all: 'Ver todos os artigos →', blog_cat_reg: 'Regulação', blog_cat_method: 'Metodologia', blog_cat_strategy: 'Estratégia',
+                blog1t: 'NBC TDS 2026: O que as empresas brasileiras precisam saber agora',
+                blog1d: 'Guia prático das novas normas obrigatórias de divulgação de sustentabilidade para empresas listadas.',
+                blog2t: 'De 10+ Frameworks para 49 Temas Universais: Como o AIS Foi Construído',
+                blog2d: 'O processo de pesquisa por trás da metodologia AIS e sua análise comparativa de frameworks.',
+                blog3t: 'CSRD: Guia Passo a Passo para Cadeias de Valor Globais',
+                blog3d: 'Como organizações fora da UE podem se preparar para os efeitos extraterritoriais da diretiva europeia.',
+                blog_read: 'Leia mais →',
+                cta_tag: 'Comece Agora', cta_title: 'A onda regulatória está chegando.',
+                cta_title2: 'Quem se estruturar antes terá vantagem.',
+                cta_lead: 'Agende uma demonstração customizada para o contexto da sua organização e veja sua maturidade ESG em tempo real.',
+                cta_btn1: 'Agendar Demonstração', cta_btn2: 'Programa de Parceria',
+                footer_desc: 'Metodologia AIS — Avaliação Integrada de Sustentabilidade. 49 temas universais. 381 agentes de IA. Jornada contínua de maturidade ESG.',
+                footer_platform: 'Plataforma', footer_methodology: 'Metodologia AIS', footer_dashboard: 'Dashboard ESG',
+                footer_frameworks: 'Frameworks', footer_login: 'Portal Login', footer_solutions: 'Soluções',
+                footer_orgs: 'Organizações', footer_consultants: 'Consultores', footer_insights: 'Conteúdo',
+                footer_resources: 'Recursos', footer_contact: 'Contato',
+                chat_tooltip: 'Fale com nosso Agente ESG', chat_name: 'Agente ESG|Frame', chat_status: 'Online — Pergunte sobre ESG',
+                chat_fab_label: 'Falar com Agente IA',
+            },
+            en: {
+                slogan: 'Sustainability, Simplified',
+                nav_methodology: 'Methodology', nav_dashboard: 'Dashboard', nav_frameworks: 'Frameworks',
+                nav_audience: 'Solutions', nav_partners: 'Partners', nav_blog: 'Insights', nav_cta: 'Access →',
+                hero_badge: 'AIS Methodology v3.0',
+                hero_title_1: "Your company doesn't need to", hero_title_2: 'fill out frameworks.',
+                hero_title_3: 'It needs to live ESG.',
+                hero_lead: 'The AIS methodology transforms 49 universal topics into real practices. 381 AI agents organize, analyze, and track progress. Your team implements. Any framework becomes a natural consequence.',
+                hero_cta_1: 'Book a Demo →', hero_cta_2: 'Explore the Methodology',
+                stat_1: 'Universal ESG Topics', stat_2: 'Specialized<br>AI Agents', stat_3: 'Integrated<br>Frameworks', stat_4: 'Maturity<br>Scale',
+                problem_tag: 'The Problem', problem_title: "The traditional model is<br>broken. And it's expensive.",
+                problem_lead: 'Fragmented, one-off ESG consulting that takes the knowledge away when the project ends.',
+                p1_title: 'Prohibitive Cost', p1_desc: '5-7 specialized consultants. USD 15,000–50,000/month. Out of reach for most organizations.',
+                p2_title: 'Knowledge Walks Out', p2_desc: 'The expertise stays with the consultant. When the project ends, the organization is back to square one.',
+                p3_title: 'Snapshot, Not a Film', p3_desc: 'ESG treated as a one-time project. Not as a continuous evolution process that grows with the organization.',
+                t_aspect: 'Aspect', t_traditional: 'Traditional Model', t_impact: 'Impact',
+                tr1a: 'Expertise', tr1b: '5-7 different consultants', tr1c: 'Fragmentation & inconsistency',
+                tr2a: 'Cost', tr2b: 'USD 15,000 – 50,000+/mo', tr2c: 'Inaccessible for SMEs',
+                tr3a: 'Knowledge', tr3b: 'Leaves with the consultant', tr3c: 'Perpetual dependency',
+                tr4a: 'Scalability', tr4b: 'Linear (more people = more cost)', tr4c: "Doesn't scale",
+                tr5a: 'Continuity', tr5b: 'One-time project', tr5c: 'No continuous evolution',
+                sol_tag: 'AIS Methodology', sol_title: 'Real practices first.', sol_title2: 'Frameworks as a consequence.',
+                sol_lead: 'The Integrated Sustainability Assessment (AIS) synthesized 10+ international frameworks into 49 universal topics every organization needs to address. Implement real ESG practices and respond to any framework naturally.',
+                sf1t: '49 Universal Topics', sf1d: 'Derived from comparative analysis of ABNT PR 2030, GRI, SASB, ESRS, IFRS S1/S2, NBC TDS, EU Taxonomy and more. Each topic is a real area the organization must address.',
+                sf2t: 'Incident = Practice to Implement', sf2d: 'Each identified gap becomes an incident with an action plan. Resolving incidents means implementing real ESG practices — documented policies, processes, and protocols.',
+                sf3t: '381 Specialized Agents', sf3d: 'They organize information, identify gaps, suggest prioritized actions and generate drafts. Every output goes through human validation. AI processes, humans decide. Always.',
+                sf4t: 'Institutional Knowledge Base', sf4d: 'By resolving incidents, the organization builds real knowledge: policies, evidence, metrics. This enables responding to any framework with genuine substance.',
+                cy_tag: 'Continuous Cycle', cy_title: "ESG isn't a project.<br>It's a maturity journey.",
+                cy_lead: 'From assessment to practice: every resolved incident is a real ESG practice implemented. The score evolves. Maturity grows. The cycle never ends.',
+                cy1t: 'Assessment', cy1d: 'Evaluation of 49 topics via smart questionnaires and evidence',
+                cy2t: 'Incidents', cy2d: 'Identified gaps become practices and processes to implement',
+                cy3t: 'Resolution', cy3d: 'Team + consultant + AI implement each practice with audit trail',
+                cy4t: 'Knowledge Base', cy4d: 'Evidence and learnings consolidated as institutional memory',
+                cy5t: 'Maturity', cy5d: 'Score evolves: E1 → E2 → E3 → E4 → E5. New cycle begins.',
+                cy_loop: '↺ Continuous improvement — the cycle restarts at a higher maturity level',
+                dash_tag: 'Live Dashboard', dash_title: 'See your ESG reality.<br>Not a static report.',
+                dash_lead: 'Materiality matrix, risk heatmap, opportunity roadmap, EU Taxonomy alignment, and maturity score — all generated from your real organizational data. A film, not a photo.',
+                dash_placeholder: 'Interactive Dashboard — Replace with hosted URL',
+                fw_tag: 'Integrated Frameworks', fw_title: 'Prepared for any<br>framework. All of them.',
+                fw_lead: 'The AIS methodology was built from comparative analysis of these frameworks. Those who implement AIS build the capacity to respond to all of them.',
+                fwi1: 'Brazilian recommended practice — 43 base criteria', fwi2: 'Impact reporting — global standard',
+                fwi3: '77 industry-specific standards', fwi4: 'European sustainability directive',
+                fwi5: 'ISSB global baseline', fwi6: 'Brazilian mandatory standards 2026',
+                fw_quote: "\"Those who implement real ESG practices can respond to any framework. Those who only fill out forms don't evolve.\"",
+                fw_author: '— AIS Philosophy',
+                aud_tag: 'Solutions', aud_title: 'Two paths.<br>Same destination: ESG maturity.',
+                aud_lead: 'Organizations wanting to structure ESG internally, or consultants wanting to scale their practice with technology.',
+                co_title: 'For Organizations', co_desc: 'Structure, implement, and demonstrate your ESG with a methodology that tracks your evolution continuously.',
+                co_f1: 'Complete ESG maturity assessment', co_f2: 'Dynamic dashboard with real-time score',
+                co_f3: '381 agents that process and organize information', co_f4: 'Auditable institutional knowledge base',
+                co_f5: 'Preparation for NBC TDS, CSRD, GRI and all frameworks', co_cta: 'Book a Demo →',
+                cs_title: 'For ESG Consultants',
+                cs_desc: "Use the platform as infrastructure that amplifies your technical expertise. Your methodology, your client relationship, your intellectual authorship. The platform provides scale.",
+                cs_f1: "Pre-sales dashboard the client can't forget", cs_f2: 'Serve more clients without losing quality',
+                cs_f3: 'AI does the heavy analysis, you validate and lead', cs_f4: 'Consulting revenue 100% yours — no commission',
+                cs_f5: '90-day trial to explore the platform', cs_cta: 'Become a Partner →',
+                reg_tag: 'Regulatory Wave', reg_title: 'ESG compliance is<br>becoming mandatory.',
+                reg_lead: 'Global convergence of standards creates urgency. Those who structure first will have competitive advantage.',
+                rg1: 'Brazilian ESG recommended practice. Foundation for national certification.',
+                rg2: 'Mandatory European directive for large companies and value chains.',
+                rg3: 'Brazilian mandatory standards for listed companies. Sustainability disclosure.',
+                rg4: 'European SME standards and international sustainability assurance.',
+                blog_tag: 'Insights', blog_title: 'Knowledge hub.', blog_lead: 'Research, analysis, and practical guides on ESG implementation, regulatory updates, and sustainability strategy.',
+                blog_all: 'View all articles →', blog_cat_reg: 'Regulation', blog_cat_method: 'Methodology', blog_cat_strategy: 'Strategy',
+                blog1t: 'NBC TDS 2026: What Brazilian Companies Need to Know Now',
+                blog1d: 'A practical breakdown of the new mandatory sustainability disclosure standards coming into effect for listed companies.',
+                blog2t: 'From 10+ Frameworks to 49 Universal Topics: How AIS Was Built',
+                blog2d: 'The research process behind the Integrated Sustainability Assessment methodology and its comparative framework analysis.',
+                blog3t: 'CSRD Readiness: A Step-by-Step Guide for Global Supply Chains',
+                blog3d: 'How organizations outside the EU can prepare for the extraterritorial effects of the Corporate Sustainability Reporting Directive.',
+                blog_read: 'Read more →',
+                cta_tag: 'Get Started', cta_title: 'The regulatory wave is coming.',
+                cta_title2: 'Those who structure first will lead.',
+                cta_lead: "Book a customized demo for your organization's context and see your ESG maturity in real time.",
+                cta_btn1: 'Book a Demo', cta_btn2: 'Partnership Program',
+                footer_desc: 'AIS Methodology — Integrated Sustainability Assessment. 49 universal topics. 381 AI agents. Continuous ESG maturity journey.',
+                footer_platform: 'Platform', footer_methodology: 'AIS Methodology', footer_dashboard: 'ESG Dashboard',
+                footer_frameworks: 'Frameworks', footer_login: 'Portal Login', footer_solutions: 'Solutions',
+                footer_orgs: 'Organizations', footer_consultants: 'Consultants', footer_insights: 'Insights',
+                footer_resources: 'Resources', footer_contact: 'Contact',
+                chat_tooltip: 'Talk to our ESG AI Agent', chat_name: 'ESG|Frame Agent', chat_status: 'Online — Ask me anything about ESG',
+                chat_fab_label: 'Talk to our AI Agent',
+            }
+        };
+
+        let currentLang = 'pt';
+
+        function setLang(lang) {
+            currentLang = lang;
+            document.documentElement.lang = lang === 'pt' ? 'pt-BR' : 'en';
+            document.querySelectorAll('.lang-toggle button').forEach(b => b.classList.remove('active'));
+            document.querySelector(`.lang-toggle button[onclick="setLang('${lang}')"]`).classList.add('active');
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (T[lang] && T[lang][key]) el.innerHTML = T[lang][key];
+            });
+            localStorage.setItem('esg_lang', lang);
+
+            // TODO: Future Implementation - Switch Chat Agent based on language
+            // const chatFrame = document.querySelector('.chat-window iframe');
+            // if (lang === 'pt') {
+            //     chatFrame.src = 'LINK_PT_HERE';
+            // } else {
+            //     chatFrame.src = 'LINK_EN_HERE';
+            // }
+        }
+
+        // Check saved language
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('esg_lang');
+            if (savedLang) {
+                setLang(savedLang);
+            } else {
+                setLang('pt'); // Default to PT
+            }
+        });
+
+        // ===== MOBILE MENU =====
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function () {
+            const links = document.querySelector('.nav-links');
+            const isOpen = links.style.display === 'flex';
+            links.style.display = isOpen ? 'none' : 'flex';
+            links.style.flexDirection = 'column';
+            links.style.position = 'absolute';
+            links.style.top = '100%';
+            links.style.left = '0';
+            links.style.right = '0';
+            links.style.background = 'rgba(15,23,42,0.98)';
+            links.style.backdropFilter = 'blur(20px)';
+            links.style.padding = '20px';
+            links.style.gap = '16px';
+            links.style.borderBottom = '1px solid rgba(255,255,255,0.06)';
+            this.classList.toggle('active');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(a => {
+            a.addEventListener('click', () => {
+                document.querySelector('.nav-links').style.display = '';
+                document.querySelector('.mobile-menu-btn').classList.remove('active');
+            });
+        });
+
+        // ===== SMOOTH SCROLL =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
